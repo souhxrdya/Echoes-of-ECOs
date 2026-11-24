@@ -1,0 +1,2159 @@
+{
+ "catalogue_sha256": "c62d01fd0b2cbadb68d443173ecf3e7b8eb640cb22794202538a71eaa92c3995",
+ "exports": {
+  "bs-sigma_c-0.18-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": false
+    }
+   },
+   "block": "B2",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "75ee8f4decbd25fdb9c9657fca5714bf926eb4de61ff7165d21629e295e0239b",
+   "file": "bs-sigma_c-0.18-E0.h5",
+   "file_sha256": "9d3bad9082a879feeaba5f63768275183352897153da908468c3f805dfc010e3",
+   "header_sha256": "c4692d8e3f9472dc7c02ab90588ff5348fdf8d8e70afecd2620147dc1cb493a6",
+   "identities": {
+    "analysis_param_hash": "2ee1fe0eb973dae47c77073639944e92edf86340a27b6086b4327d66853bec10",
+    "analysis_params": {
+     "sigma_c": 0.18
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "bs-bcb128247624ba76",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "58af8143813966c7abd04abc29c0594b3029c38d682bfe39fe487b011e5b006b",
+     "record_id": "bs-86e7f85d528767e5952c73e1",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "db2c75437f152f779cf1b9a1cd21b13aded6ddc4cb1180cc052aadc43f68a2b2",
+     "record_id": "bs-032437c9219fb09d8c02ebbe",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "0f70e7cc586fe73395fa4aca9405ca3f9bbff875d38eeec53ae4eff78c4373f1",
+     "record_id": "bs-ebeb294a84005f104557bacc",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "a50b632d4998cf1161b240e1e2795e42e931a342eae913529fc5ad8515f09031",
+   "model": "BS",
+   "modes": null,
+   "modes_status": "NOT_VALIDATED_MATCHING_ILL_CONDITIONED",
+   "params": {
+    "sigma_c": 0.18
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "bs-sigma_c-0.22-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": false
+    }
+   },
+   "block": "B0",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "b0a4fec10b035813aa833f39e59e6312557b2083b846633b46780e3f539d721d",
+   "file": "bs-sigma_c-0.22-E0.h5",
+   "file_sha256": "275da2386ca9277a77e4cbe612ddd18d3c4cd8879ad4d064ec0362fe0875a8c9",
+   "header_sha256": "b644138636f3a016c1def9285262e7afacf3d948ca058600c6ee63e0a23c3dc5",
+   "identities": {
+    "analysis_param_hash": "b9b0cb6181c4cffa4f0dbf4946e226a02e5d6c7c08fd2c8ade321e1f31834cc8",
+    "analysis_params": {
+     "sigma_c": 0.22
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "bs-f530c811d1fbcd67",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "14d6e1d4d2ae5c09052cfddac819740babb221ed4eb8f56752e65c109ece4041",
+     "record_id": "bs-ec49b1400444aa8fb4e2ca8f",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "71ef023b518e58cb3e5b0cd5eea295b668c5bc725f90dbc5ed0cf050d5b42d9b",
+     "record_id": "bs-c5a52daa38d48c37830547e3",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "12d04cfade1bb2ce33babc4695c308756bb29e6f5eb93e952a9d43dd18f4ef98",
+     "record_id": "bs-798173f84f4d436815d03fd2",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "d6d666bfd783b4bded3db7461ec9a1f4096c12bedaf1d98719dcfca5a9222546",
+   "model": "BS",
+   "modes": null,
+   "modes_status": "NOT_VALIDATED_MATCHING_ILL_CONDITIONED",
+   "params": {
+    "sigma_c": 0.22
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "bs-sigma_c-0.25-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": false
+    }
+   },
+   "block": "B3",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "e1ab8cc91dc051ee2244181bd7027cfea67d0d0e70744d103b040ea2c1aa31af",
+   "file": "bs-sigma_c-0.25-E0.h5",
+   "file_sha256": "ac06f16bf2d539b43d8e89aba4af2b2d2e6a1cc03b1a30f12a42407067995410",
+   "header_sha256": "c754a2e3cbcd63446605903149d594a0db71bffb0dff37f445648cd839e8db9c",
+   "identities": {
+    "analysis_param_hash": "bcb998bf16950770b3a8b28172e75cdb19ed96ba1174881772c01e00cd3cb91b",
+    "analysis_params": {
+     "sigma_c": 0.25
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "bs-78eb0ecdb5d48914",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "c6c0c8ddc8f7001a7853036522bcb7b050a4e7891535374062b50c6afacdc350",
+     "record_id": "bs-759644b5f45ebd2674809aec",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "247f81fb3bd92135b06a2b1ca719f65ce200fc141cd18f86b32aa3006b7b9982",
+     "record_id": "bs-883e4404e3e9eebfe62f5b7f",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "ea31c54a59367237159d9961e4206fdfbc56ed78f1e1b7e760b365e136b86848",
+     "record_id": "bs-8ae23d1d6c03105fdb7d49cb",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "4a604380d6e776961060ef42fce294e4a45eb75aac5dcd523f850b401960853e",
+   "model": "BS",
+   "modes": null,
+   "modes_status": "NOT_VALIDATED_MATCHING_ILL_CONDITIONED",
+   "params": {
+    "sigma_c": 0.25
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "bs-sigma_c-0.270963-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": false
+    }
+   },
+   "block": "B1",
+   "catalogue_state": "INCONCLUSIVE",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "13faa16a182bb02697a9f66b71d0f7bcff85ce0ab577adbb2e49a1d19dd65913",
+   "file": "bs-sigma_c-0.270963-E0.h5",
+   "file_sha256": "e073fc178d08a147abd51dfa82afba4f1decfdd536ae113e32acd86cae719ebf",
+   "header_sha256": "b45c890dd2123b7794df37b40ff095d6c9813b52f5b1561b5fa9de82258988d4",
+   "identities": {
+    "analysis_param_hash": "cae238e261954148e420f5f88f0845ddfe818b79bfe9225686017a19cd57a1aa",
+    "analysis_params": {
+     "sigma_c": 0.270963318550685
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "bs-7af4321c8d42c68b",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "5f070ed10a77ca5eaf830f27165105e0a78d5c2269c1aa72a416703ee21573b7",
+     "record_id": "bs-bcc444bd0bde0565fc8e6e43",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "24864ee87abe9034f8984619071e9b9f98c38613f02d655a7533e95f43a0fc98",
+     "record_id": "bs-612df74e38c94af6c62f686d",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "c24af6c7f92836a868e66761d16928f2f98703e5915694267fc91f5d8a2bcd72",
+     "record_id": "bs-8c3b9e94d28cd20c25c3c832",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "e1f0d88b930b08f13bfa577592466b138df1a6d0b5ac715bc40f41681e6a8c2a",
+   "model": "BS",
+   "modes": null,
+   "modes_status": "NOT_VALIDATED_MATCHING_ILL_CONDITIONED",
+   "params": {
+    "sigma_c": 0.270963318550685
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "gs-compactness-0.4-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B2",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 2,
+    "residual": 2
+   },
+   "entry_identity_sha256": "65e73fc0bf49c0372e651f939c0e4bc764a4f0db863dafed997053e694b71071",
+   "file": "gs-compactness-0.4-E0.h5",
+   "file_sha256": "0005e93e0f50dbf91947ec04699f6ea54692678231fc7080ceaf827844dd143d",
+   "header_sha256": "36f80722ae249f649c614c07de79ed224fe53a92c17a93c133f19b4fa1775a73",
+   "identities": {
+    "analysis_param_hash": "8fe894f9a9814bfdda380873bd1c97f5ae960c5dcc5dbdb9ada8605fa05d0852",
+    "analysis_params": {
+     "compactness_M_over_a": 0.4
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "gs-9117a01db6574e68",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.20175419107687684,
+     "covers_0_500_from_t0": true,
+     "dt": 0.0706139668769069,
+     "level": "coarse",
+     "psi_sha256": "498d19da48659548c37710bef3812fa87f8bb0b1c5ef9bf4579925e1e088d520",
+     "record_id": "gs-db21d3b50aa4edecb12503dd",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.10087709553843842,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03530698343845345,
+     "level": "medium",
+     "psi_sha256": "b64108cd82026527bdbfd7922a32880cf94a0b2ac2fd6b0db40fef90c09c1f4d",
+     "record_id": "gs-ab96106fd361ef14e9b5f9fe",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05043854776921921,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017653491719226724,
+     "level": "fine",
+     "psi_sha256": "da96e17beb0cdac44cfec60d14f77339170494dbe5fa3be78e0d0f989ee7d109",
+     "record_id": "gs-91d812d500bbb7f1d1a672d2",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.20175419107687276,
+     "covers_0_500_from_t0": true,
+     "dt": 0.07061396687690547,
+     "level": "coarse",
+     "psi_sha256": "5d3be3c817bbaf1d569ff3af929c6141b74c2258963cb6783b880093a9e9535d",
+     "record_id": "bh-a141e88ade615ef47421a705",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.10087709553843638,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03530698343845273,
+     "level": "medium",
+     "psi_sha256": "e8d4e230a683351376032f6a432e5d61a36f6a74805a899402d0e1d7710f7c82",
+     "record_id": "bh-00b2cb212eb5fce6abf57ba9",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.0504385477692324,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017653491719231338,
+     "level": "fine",
+     "psi_sha256": "0c9008e9331348e4c8d4caf511f12380c6ebf676190840574417cef47c1a4d2d",
+     "record_id": "bh-b1820deb98084e1029d29f4b",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "65b254482ecf671d6776961cfa368bf7c6f47142f11e2a832964efd026c9e743",
+   "model": "GS",
+   "modes": [
+    {
+     "branch_id": "GS-axial-0@M/a=0.47->0.4",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.45020231739325917,
+      -0.11138488515301835
+     ],
+     "sigma_num": 7.286745617324899e-13
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "compactness": 0.4
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -0.27258872223978114,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.808490611650376e-14,
+      "step_half": 4.3045388499324405e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -0.27258872223978114,
+     "variant_max_abs_difference": {
+      "radial_ode_notebook_settings": 3.0164385134831566e-10,
+      "radial_ode_tight": 1.090229535936108e-12
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "ab28c74a2698e9abd81424b3362d1697a9ed067c995d53799d1015ff8ac8c6c1",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "gs-compactness-0.44-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B0",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 2,
+    "residual": 2
+   },
+   "entry_identity_sha256": "91dc9212e25adbe0556ca05892f9e922a73c097dbc15c6ff2589b8987265143f",
+   "file": "gs-compactness-0.44-E0.h5",
+   "file_sha256": "2a1552240c833c2669703b789f746246f37e8e7049d2d16f4e9a6cc90d8af911",
+   "header_sha256": "923b806499ca10738771a342192f50b099d1de1ee2fb166b5d183112b2f31cfa",
+   "identities": {
+    "analysis_param_hash": "3a86c5fbe1c117bbd19beb2f399c85247ed6978f145375e7f8f7392bf180d7bd",
+    "analysis_params": {
+     "compactness_M_over_a": 0.44
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "gs-e2366eb4c8591bdc",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.1986448281665907,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06952568985830675,
+     "level": "coarse",
+     "psi_sha256": "663d45c6a6009022834165e58d773529d99085d685f6c4f63716b70c4bf648df",
+     "record_id": "gs-0cf9a22d8afe8914a27da6ab",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09932241408329535,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03476284492915337,
+     "level": "medium",
+     "psi_sha256": "620dc11456585e5d292a7b398813cdd9ce3c521edaf8889f77d358862936e365",
+     "record_id": "gs-9388985af79e709eaed9a560",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.04966120704164768,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017381422464576687,
+     "level": "fine",
+     "psi_sha256": "a17f3a591c0c1932d9ff3e992fdb83134daa1272525e9faf6856ebca359f695f",
+     "record_id": "gs-08e3692ce12ec5c29f6dd5ac",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1986448281665787,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06952568985830254,
+     "level": "coarse",
+     "psi_sha256": "037fb9619d68edf92174d2484168f2223cd37c9e572df626c178acdd1efcc2b1",
+     "record_id": "bh-e1753490f7e9a78ac8499409",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09932241408330356,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03476284492915624,
+     "level": "medium",
+     "psi_sha256": "6eb40e2c6b103f924f79803cecccf97a6042a06d73d574121961d1c6780878c1",
+     "record_id": "bh-901c3a8685170c6894d4878d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.049661207041651785,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017381422464578123,
+     "level": "fine",
+     "psi_sha256": "a4ff84ecd50f4423be164b494cbfe843f69a3c5f749f561ef6b7b8b777faaf4b",
+     "record_id": "bh-6cba1f985a466094c9e2f7d2",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "176baaa60b76c38b7391b2c83663b25b81dd6635a423a9c926faecbc60997cd5",
+   "model": "GS",
+   "modes": [
+    {
+     "branch_id": "GS-axial-0@M/a=0.47->0.44",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.44042256575725786,
+      -0.06358974501815666
+     ],
+     "sigma_num": 6.478283923610034e-13
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "compactness": 0.44
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -1.7121330566531379,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.0277199045399877e-14,
+      "step_half": 4.464604826235429e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -1.7121330566531379,
+     "variant_max_abs_difference": {
+      "radial_ode_notebook_settings": 2.8953684353915093e-10,
+      "radial_ode_tight": 9.92183964627343e-13
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "bcb18d2cef6daa44bd99c0d4b1df054169860925dc9dd5fd11b0762dba3f0d36",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "gs-compactness-0.47-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B1",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 2,
+    "residual": 2
+   },
+   "entry_identity_sha256": "ad327241098fb9ea94ed7c20b1be5a679a44aaba1af3672ad3f1d999183aad49",
+   "file": "gs-compactness-0.47-E0.h5",
+   "file_sha256": "bc2631946419e941d652876578977e76931cf7dcf675b0c88e12a1c92451c9e8",
+   "header_sha256": "d5ca96ddad2b03ebb8fb33944e27e44464406d9af25cdbca88c680b7e71be245",
+   "identities": {
+    "analysis_param_hash": "472ff4ed1a335f13b5792d45ce7c0202f5b65859083a5b95fd6a1d5f6f629639",
+    "analysis_params": {
+     "compactness_M_over_a": 0.47
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "gs-fd9d4fbb720b3b40",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.1988900109384498,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06961150382845742,
+     "level": "coarse",
+     "psi_sha256": "be08275c3f156a4a7f3ba142a4c8a24b7990c9c0dcef95b6206b0425fe338df6",
+     "record_id": "gs-6750104d3e3a0d1d81e20e70",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09944500546922491,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034805751914228716,
+     "level": "medium",
+     "psi_sha256": "ae134ee1ec125ce68942dce29700dfd33b924014fd7b975d4f08f5f79d0d2044",
+     "record_id": "gs-bff305789066e36e37537d68",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.04972250273461245,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017402875957114355,
+     "level": "fine",
+     "psi_sha256": "4977d5223ffb7a61ad00a9aefb21204247667f9e420dacca7e091e4b511b6689",
+     "record_id": "gs-77d3ed8bba1a480fa6805b0b",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19889001093844172,
+     "covers_0_500_from_t0": true,
+     "dt": 0.0696115038284546,
+     "level": "coarse",
+     "psi_sha256": "b6a9b01b9602067a0eb8550d0dcbdaaf23adccc3993ad985a674b1157160532c",
+     "record_id": "bh-fd00eb1ec71bc6344677c9e2",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09944500546922086,
+     "covers_0_500_from_t0": true,
+     "dt": 0.0348057519142273,
+     "level": "medium",
+     "psi_sha256": "367f9d5fe585bb6fcd38543104127a15b5888045dbe617e7f83af14c5afbf0a8",
+     "record_id": "bh-4a43b250eaec4cf3d0a07275",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.04972250273462464,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017402875957118622,
+     "level": "fine",
+     "psi_sha256": "e256113f92f415cbb2b9451375c84d9606739ebfc96bb398c3032d0010b03eb5",
+     "record_id": "bh-92bc4de0e6fd7657c3c482c0",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "e8fe6e2b15f2413802dc8cc823bc14620f4bce7cde724be2505cb21e3bcdc37f",
+   "model": "GS",
+   "modes": [
+    {
+     "branch_id": "GS-axial-0@M/a=0.47->0.47",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.4050957171576265,
+      -0.024981162961334763
+     ],
+     "sigma_num": 3.461769581562937e-13
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "compactness": 0.47
+   },
+   "ratio": 1.9999999999999998,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -3.3754110516158136,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.897696139048397e-14,
+      "step_half": 3.073636678421524e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -3.3754110516158136,
+     "variant_max_abs_difference": {
+      "radial_ode_notebook_settings": 2.5811868138055286e-10,
+      "radial_ode_tight": 1.1529313923079374e-12
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "3f87ec8627a6c6b8a742e2a579796556c62bd59ee0f273f1100cc7a32fde928a",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 593,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 4
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "gs-compactness-0.49-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B3",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 2,
+    "residual": 2
+   },
+   "entry_identity_sha256": "598efba68ca3f88f06eab6033d2a015c043469a7359ac6859351756e3a544de4",
+   "file": "gs-compactness-0.49-E0.h5",
+   "file_sha256": "61535aa66b8a712ba52bb754a43a65cdad13df9c905dbe36fc99c26cafaf4792",
+   "header_sha256": "4dccc96556ac50071fa0c75a474667f3b85e2c2d7c26c98af3cf6d7fdbe3ac55",
+   "identities": {
+    "analysis_param_hash": "69442a88fe900f2a161ecfca6606f685bb80355aad79e75dfeb29134d1a26c2f",
+    "analysis_params": {
+     "compactness_M_over_a": 0.49
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "gs-323eab8fdd0a82b9",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2018870230451024,
+     "covers_0_500_from_t0": true,
+     "dt": 0.07066045806578583,
+     "level": "coarse",
+     "psi_sha256": "599a2d0d775ed6a9e5c2d0ed4f799462d2f82fde0c355149591d5e5d4e2ebd5d",
+     "record_id": "gs-16cd029a3043f2e841fbfc7b",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.10094351152255121,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03533022903289292,
+     "level": "medium",
+     "psi_sha256": "dd54d5af1ca76c29b7ec5ed0e65eab2796cc51554c8146767f62930f9400d51b",
+     "record_id": "gs-8b1f853351606409680731bc",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.0504717557612756,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017665114516446458,
+     "level": "fine",
+     "psi_sha256": "df81488097957da7e67270651e3890bf8a6a4ca2bcf59053f1bd89f43b83f1a8",
+     "record_id": "gs-6579569f239afb08ece03347",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.20188702304508865,
+     "covers_0_500_from_t0": true,
+     "dt": 0.07066045806578103,
+     "level": "coarse",
+     "psi_sha256": "806556152f3826c53ce9d0e91fe3efdeedca9f780f7ef59df545585f9ee9dd53",
+     "record_id": "bh-b9fde1459605142f7959575e",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.10094351152255854,
+     "covers_0_500_from_t0": true,
+     "dt": 0.03533022903289548,
+     "level": "medium",
+     "psi_sha256": "d30b95865572604dcc1cea3d7df851a828ff3b6b4e37f17306bb7839fa6183b6",
+     "record_id": "bh-b4a78293c5a4137b9b58e668",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.050471755761265065,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017665114516442773,
+     "level": "fine",
+     "psi_sha256": "423f6fe6bdbac3a0ada2218755d823892b46063968847684cf42d10f6a111b6f",
+     "record_id": "bh-908f803812243a99a982f5a6",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "58c4caa57be8aa97cf7aecd9d38c5f7c9f56858281c4619abe63239d27b44d44",
+   "model": "GS",
+   "modes": [
+    {
+     "branch_id": "GS-axial-0@M/a=0.47->0.49",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.3369171982642214,
+      -0.0035086862097510408
+     ],
+     "sigma_num": 2.582189256261284e-13
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "compactness": 0.49
+   },
+   "ratio": 1.9999999999999998,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -5.742824269690638,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.6657241971165105e-14,
+      "step_half": 5.122787551451807e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -5.742824269690638,
+     "variant_max_abs_difference": {
+      "radial_ode_notebook_settings": 2.789923531725879e-10,
+      "radial_ode_tight": 1.1473985175226894e-12
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "fb90badd604972c4d1052899178b1eb4f8795d3fdb696ec661eaab20b38ba02b",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 491,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 106
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "qh-EplM-1e+06-E0": {
+   "bh_reference": {
+    "analysis_mode": "CO_COMPUTED_SAME_SOLVER",
+    "analysis_mode_status": "PROPOSED: QH was outside milestone 1; the analysis owner decides; the five items are derived from the stored stages (catalogue 1.1), not set",
+    "match": {
+     "domain": true,
+     "dt": true,
+     "extraction": true,
+     "grid": true,
+     "solver": true
+    }
+   },
+   "block": "B2",
+   "catalogue_state": "INCONCLUSIVE",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "5dd39cbb532b9a216ee3d3619ba9a1e73b05b06108cd14275dacb36d37827667",
+   "file": "qh-EplM-1e+06-E0.h5",
+   "file_sha256": "9e5ec5d23f6b0858dc4c3b11c81b95cb77a176eed680c4a94f23930e286d52d8",
+   "header_sha256": "d8089e26be499e83ef600306707a6b4aea50f4eca1a234c205455e4cc1aa2951",
+   "identities": {
+    "analysis_param_hash": "9bf10587b2706984e6ba9c3fbf0914e3ea8a21cbb4f12c2455013ba8ab96d3fc",
+    "analysis_params": {
+     "EplM_hierarchy": 1000000.0
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "qh-d6cdbf7eced756b9",
+    "unmapped_library_params": {
+     "gamma": 1.0
+    }
+   },
+   "levels": [
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "705c5bddd5b66980181abe53f3733de86e695e66dca68ed99e4080b9a2758389",
+     "record_id": "qh-8fbc18bb6f7dd94ab1cb83b0",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "022f6a68eed452d0f9a42749a06aa68e05162e0a631109df59ff5f71f0394898",
+     "record_id": "qh-de3d5f63b8925d58de9dbef8",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "905483d6e94b30cb46ec0d38f39665ef35ddd8cd418bcea9f88e35b200526407",
+     "record_id": "qh-8b5800927e01e96337567b43",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "qh-8fbc18bb6f7dd94ab1cb83b0:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "qh-de3d5f63b8925d58de9dbef8:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "qh-8b5800927e01e96337567b43:bh_stage",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "9d4a6b4149a090d06f33422297ec59d8ae3b6dd131f55ee9581fc0592a123084",
+   "model": "QH",
+   "modes": null,
+   "modes_status": "PRESCRIPTION_DEPENDENT_NOT_COMPUTED: the prescription is defined on the real axis (|omega|); no complex-frequency continuation is established",
+   "params": {
+    "EplM": 1000000.0,
+    "gamma": 1.0
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "STORED_CORRECTION"
+  },
+  "qh-EplM-1e+08-E0": {
+   "bh_reference": {
+    "analysis_mode": "CO_COMPUTED_SAME_SOLVER",
+    "analysis_mode_status": "PROPOSED: QH was outside milestone 1; the analysis owner decides; the five items are derived from the stored stages (catalogue 1.1), not set",
+    "match": {
+     "domain": true,
+     "dt": true,
+     "extraction": true,
+     "grid": true,
+     "solver": true
+    }
+   },
+   "block": "B1",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "fd41c808b2d0f6391679022967b123a0309ad9fd6606f37ef11460f9187ee308",
+   "file": "qh-EplM-1e+08-E0.h5",
+   "file_sha256": "4e3795ef0c09c3aa4ddb3bbded5ccb8f385670efc4018f469cb4ff97b664f762",
+   "header_sha256": "741e484dff044e95215aeb8567d9dce80361d3fc9eaad9f767cab609522102ed",
+   "identities": {
+    "analysis_param_hash": "930efb8b44a827bcdc963362615af6e68a0716a2f89c437300f197b76e77441a",
+    "analysis_params": {
+     "EplM_hierarchy": 100000000.0
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "qh-385c10dd7ae4b023",
+    "unmapped_library_params": {
+     "gamma": 1.0
+    }
+   },
+   "levels": [
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "24a539b29a1fa4f4184032d300177d902e83663b988a99c084b35854b1bd68ae",
+     "record_id": "qh-392fcfbeac78b2a10ea5eaf1",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "9d6d74ff6fd442577cc2fd104168557a6b4927e0db9d86a79c2ac2347c165009",
+     "record_id": "qh-da28a7a40540ffa335ae7da9",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "889d358d0c67330e3ec18846ce30800bff8842d29e90b750cb132ad470e54be9",
+     "record_id": "qh-27dda0d086e1d41459ae31e0",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "qh-392fcfbeac78b2a10ea5eaf1:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "qh-da28a7a40540ffa335ae7da9:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "qh-27dda0d086e1d41459ae31e0:bh_stage",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "e8f1e8261acba951c6538108b750623bda255b3a0c176854c59185fb9117d530",
+   "model": "QH",
+   "modes": null,
+   "modes_status": "PRESCRIPTION_DEPENDENT_NOT_COMPUTED: the prescription is defined on the real axis (|omega|); no complex-frequency continuation is established",
+   "params": {
+    "EplM": 100000000.0,
+    "gamma": 1.0
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "STORED_CORRECTION"
+  },
+  "qh-EplM-1e+10-E0": {
+   "bh_reference": {
+    "analysis_mode": "CO_COMPUTED_SAME_SOLVER",
+    "analysis_mode_status": "PROPOSED: QH was outside milestone 1; the analysis owner decides; the five items are derived from the stored stages (catalogue 1.1), not set",
+    "match": {
+     "domain": true,
+     "dt": true,
+     "extraction": true,
+     "grid": true,
+     "solver": true
+    }
+   },
+   "block": "B0",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "f1b4271ee6ff219b6047e5ec17d9e7a97bd1e8edcf6fee7a16785b2fed531096",
+   "file": "qh-EplM-1e+10-E0.h5",
+   "file_sha256": "1a7051a566039bc1c287295df99cf0954657d38700f64439559e56d2093221ab",
+   "header_sha256": "72c69fb12877160d48bf59905edf7b3bd8971e69c6f426fe3063b0850bb969a8",
+   "identities": {
+    "analysis_param_hash": "4ec3d05e49a4b71e3ed34d453a7783ba84ff5ad54cbbea53658268c434611309",
+    "analysis_params": {
+     "EplM_hierarchy": 10000000000.0
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "qh-ddb5dc76655f6215",
+    "unmapped_library_params": {
+     "gamma": 1.0
+    }
+   },
+   "levels": [
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "068b03b6bf99a8f03f564ec56a1a03d9d768d286558edae275f64265ce5895fc",
+     "record_id": "qh-7c6edbffc032abfb5455a382",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "186fad69351241a25e1bf88d50b8d8320f6a22376e69f83ee778b7d63be017b7",
+     "record_id": "qh-de91cdbcd30d79f2752cf6c1",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "da4631e749e98d2720fec2e0fef29664b472112a6c5e399f4f293aff69a5e5bd",
+     "record_id": "qh-e27e36f6bc3771a0e824648d",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "qh-7c6edbffc032abfb5455a382:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "qh-de91cdbcd30d79f2752cf6c1:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "qh-e27e36f6bc3771a0e824648d:bh_stage",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "c538c666e58c06118056ed3daa5fc32a48341976dc55b941522c72a07198305c",
+   "model": "QH",
+   "modes": null,
+   "modes_status": "PRESCRIPTION_DEPENDENT_NOT_COMPUTED: the prescription is defined on the real axis (|omega|); no complex-frequency continuation is established",
+   "params": {
+    "EplM": 10000000000.0,
+    "gamma": 1.0
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "STORED_CORRECTION"
+  },
+  "qh-EplM-1e+12-E0": {
+   "bh_reference": {
+    "analysis_mode": "CO_COMPUTED_SAME_SOLVER",
+    "analysis_mode_status": "PROPOSED: QH was outside milestone 1; the analysis owner decides; the five items are derived from the stored stages (catalogue 1.1), not set",
+    "match": {
+     "domain": true,
+     "dt": true,
+     "extraction": true,
+     "grid": true,
+     "solver": true
+    }
+   },
+   "block": "B3",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "32f4998d857712acd13543126e815e504617b886ad153c70cc1a4fbd008a8c3a",
+   "file": "qh-EplM-1e+12-E0.h5",
+   "file_sha256": "34ca680b6530125ee13f01384c5bd6b83573537877667c4f8309223481952311",
+   "header_sha256": "dc4518acb4b03b7aa131461fcf1066edb047f0a2224e59e33f9ee9468cfc2691",
+   "identities": {
+    "analysis_param_hash": "8aef1a1f1673a49b364b3637e7c7c7e68379c582a3da4ac8d2ab7c88809afa99",
+    "analysis_params": {
+     "EplM_hierarchy": 1000000000000.0
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "qh-e17ce84d5cda5a9a",
+    "unmapped_library_params": {
+     "gamma": 1.0
+    }
+   },
+   "levels": [
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "90600fe36257ea2a89f54211174cf6bc1e5044cb5cc8c56f331bf563444f70cf",
+     "record_id": "qh-f091920873ee51db28c49cee",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "eac2ebb862914cf9c7deee5c2a02f05dae1cfd3c88e06c27f82eabaa447172b0",
+     "record_id": "qh-1fa332fbd0b12fbb64845026",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "cc9ccd4b11c4d8538d1b7cc646e62d6b7b555b98726a5cdbca6e1ef3b1988df6",
+     "record_id": "qh-bed5c1c4a4a1d834a0991494",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "qh-f091920873ee51db28c49cee:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "qh-1fa332fbd0b12fbb64845026:bh_stage",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "qh-bed5c1c4a4a1d834a0991494:bh_stage",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "c9e94ee20233fe84254962b94e8ce3baec994156be2d32a8fbd357c688bde2a7",
+   "model": "QH",
+   "modes": null,
+   "modes_status": "PRESCRIPTION_DEPENDENT_NOT_COMPUTED: the prescription is defined on the real axis (|omega|); no complex-frequency continuation is established",
+   "params": {
+    "EplM": 1000000000000.0,
+    "gamma": 1.0
+   },
+   "ratio": 2.0,
+   "reflectivity": null,
+   "reflectivity_archive_sha256": null,
+   "reflectivity_tau_states": null,
+   "residual_source": "STORED_CORRECTION"
+  },
+  "wh-r0_over_M-2.0005-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B1",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "56648ff0e593fcd733a6c2c75ec496bb47e738f1e63e5d30adf93a7e602fd6c1",
+   "file": "wh-r0_over_M-2.0005-E0.h5",
+   "file_sha256": "be6aba83e0d36a5f8da4ca88d726aa9d3a229fee257e7ac6c9afdfec40ac8eb7",
+   "header_sha256": "31b8ccca2b7a6256e9bffb3b470c0b80c0c4718760c39b7738dd0981164aa875",
+   "identities": {
+    "analysis_param_hash": "8440259ed72a2d08a1c1956bcd23a3a3268ff4bae0a7c848bc6e5d9c558d2d62",
+    "analysis_params": {
+     "r0_over_M": 2.0005
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "wh-2438af6900deea37",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "d80271d589c168003cfffd57a5c9c87eef83373b639117453f432481e31a3549",
+     "record_id": "wh-6341a22ee3be0209112d3168",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "818fcb864992da937478e41537cd652a2f87b0fcc9444686adbfcbadfd086b31",
+     "record_id": "wh-e8eefa7f9b07d663062ea4e5",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "a778f39c26ba676054cfe6d3887690ee2ca7ef397c5afba9abf3d548826a559e",
+     "record_id": "wh-0513f487668953dc8e2dc1b9",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "9fb082348b49a77b6dd6a4f4580aa2cac97e5ef192be2f96c944c98ae39dcb79",
+   "model": "WH",
+   "modes": [
+    {
+     "branch_id": "WH-even-0@r0=2.0005->2.0005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.1869179277556438,
+      -6.623812629229945e-06
+     ],
+     "sigma_num": 4.55433668266303e-13
+    },
+    {
+     "branch_id": "WH-odd-1@r0=2.0005->2.0005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.22812611905108612,
+      -4.7619032106979774e-05
+     ],
+     "sigma_num": 4.584457980398093e-13
+    },
+    {
+     "branch_id": "WH-even-2@r0=2.0005->2.0005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.347123176105406,
+      -0.003248599661190979
+     ],
+     "sigma_num": 7.470013753887119e-13
+    },
+    {
+     "branch_id": "WH-odd-3@r0=2.0005->2.0005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.38896789269556037,
+      -0.010535305938920034
+     ],
+     "sigma_num": 8.117548151501204e-13
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "r0_over_M": 2.0005
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -14.587599280203387,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.3772559678601126e-14,
+      "step_half": 2.3577534642085178e-11
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -14.587599280203387,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.0079953809972406e-14,
+      "step_half": 4.3760516661418044e-11
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "94e7936c934921e74caae6c2c4e39f368fdb4ed18d54f72348ab5b5e7ae20108",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 273,
+     "RESOLVED": 324,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 595,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 2
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "wh-r0_over_M-2.005-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B0",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "b74b0e2b79f9824e8a76d46355caa0184d62dc1ee528a18a8cdf63b0700d2d1a",
+   "file": "wh-r0_over_M-2.005-E0.h5",
+   "file_sha256": "a23f0dfb980030e75f4bd4154270be3d889af53b751ce0b65f065f3ebb5ecd30",
+   "header_sha256": "185ffb28b7f0469bc9263b66e23d0cb2eaaba4770776a162579e8775463bf99e",
+   "identities": {
+    "analysis_param_hash": "003dc38c808bae615430170f8dedc33b62e0a61da6693d5ae3f88170db89ed11",
+    "analysis_params": {
+     "r0_over_M": 2.005
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "wh-efaa001ccae9b10c",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "57f6da72d3b92c882929884791b51cbc16b316736943a8d6e54c039e238f9aba",
+     "record_id": "wh-c70eb77863a66fd5f3bb175f",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "6ae2ab2184832b2e7f580052d7f59d3d5d614e3646d596e7e9da11a015aa0d9e",
+     "record_id": "wh-d59fea3dacfcbb7aa7551d9c",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "6de08da4368b2be90fd8cf04b276be4ee4ccd6146221251fb959673d11952733",
+     "record_id": "wh-182686191a7128fdc681e4f5",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "4257179370c654a73747e4c7b903f554cf93aea2ac4dc31a855f7fb968348565",
+   "model": "WH",
+   "modes": [
+    {
+     "branch_id": "WH-even-0@r0=2.0005->2.005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.2502296523356629,
+      -0.00013831762145978193
+     ],
+     "sigma_num": 2.9589339581320464e-13
+    },
+    {
+     "branch_id": "WH-odd-1@r0=2.0005->2.005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.3090466715115049,
+      -0.0013458901534383868
+     ],
+     "sigma_num": 5.46459935078082e-13
+    },
+    {
+     "branch_id": "WH-even-2@r0=2.0005->2.005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.4253690250639806,
+      -0.02691592636199688
+     ],
+     "sigma_num": 7.304804316922964e-13
+    },
+    {
+     "branch_id": "WH-odd-3@r0=2.0005->2.005 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.47365156112864204,
+      -0.060358750881035865
+     ],
+     "sigma_num": 1.0734182112920387e-12
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "r0_over_M": 2.005
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -9.977929094216005,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.6620142903387674e-14,
+      "step_half": 1.3696362274109674e-11
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -9.977929094216005,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.014651948372e-14,
+      "step_half": 1.8709805218008523e-11
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "db7bb340266baa63bf26a63e1eb4ed522e9ef3469896c8267f7815a522304aa9",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 288,
+     "RESOLVED": 309,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "wh-r0_over_M-2.02-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B3",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "61c857bdba3b7bf0d2f7134cca5a5c242fe4a4227a1e994fb3efa64bfb68e4f1",
+   "file": "wh-r0_over_M-2.02-E0.h5",
+   "file_sha256": "1ccabb314dd189edca295d7f1ad9c2f218219701809c9754d8fb570ea51fe433",
+   "header_sha256": "a0b2630ff6f51724e2e6f37f1a2366958f6da50eb81761d6fe33bb8a1b97bfea",
+   "identities": {
+    "analysis_param_hash": "883f48f2464ecf8d1043f9d2c37934472c38b85027907a7e558dd9614bf5660f",
+    "analysis_params": {
+     "r0_over_M": 2.02
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "wh-69193c79a2888e1c",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "7fb1f63d71466260b3aaf5982368c6d3cc82fab78b735e60bf582b679656e5ca",
+     "record_id": "wh-9b02a504b7e69b93cba70997",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "7be4dd16719f97c6c07d32b9ad0b88c8121cd50a48a300ba4217d9c7c93b95d3",
+     "record_id": "wh-a949b4ef88f7c71b1e65643a",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "cf1b88715ae4c16e1f705d57393c476fbd8388987f8d910649e30b0710b7f3f8",
+     "record_id": "wh-378996efdb33dc389872033a",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "914e581997eba27bc2fa1879751d682fd08f32a8f9b2add97a6446f3181cbefa",
+   "model": "WH",
+   "modes": [
+    {
+     "branch_id": "WH-even-0@r0=2.0005->2.02 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.3060421501932346,
+      -0.0013263984809052563
+     ],
+     "sigma_num": 3.1047883248258765e-13
+    },
+    {
+     "branch_id": "WH-odd-1@r0=2.0005->2.02 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.3706142956138247,
+      -0.010004391893756735
+     ],
+     "sigma_num": 5.368325694033206e-13
+    },
+    {
+     "branch_id": "WH-even-2@r0=2.0005->2.02 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.4790644526868935,
+      -0.07604131038976335
+     ],
+     "sigma_num": 8.794239069182343e-13
+    },
+    {
+     "branch_id": "WH-odd-3@r0=2.0005->2.02 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.5319215986519847,
+      -0.14111069067964355
+     ],
+     "sigma_num": 1.1211122985452304e-12
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "r0_over_M": 2.02
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -7.1903403719761805,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.7556404289617846e-14,
+      "step_half": 8.021697591841519e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -7.1903403719761805,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.2744286695539833e-14,
+      "step_half": 1.5609456181255562e-11
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "4a2ded3dde768bf0c5e7cdc71dbfdf19b24267555a8bf421d6b5158e308df11c",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 62,
+     "RESOLVED": 398,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 137
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  },
+  "wh-r0_over_M-2.05-E0": {
+   "bh_reference": {
+    "analysis_mode": "MATCHED_RESOLUTION",
+    "analysis_mode_status": "request section 6.5 rule: MATCHED_RESOLUTION_NOT_IDENTICAL_GRID maps to MATCHED_RESOLUTION (no cancellation credited)",
+    "match": {
+     "domain": false,
+     "dt": false,
+     "extraction": false,
+     "grid": false,
+     "solver": true
+    }
+   },
+   "block": "B2",
+   "catalogue_state": "ACCEPTED_V1",
+   "declared_order": {
+    "bh": 4,
+    "eco": 4,
+    "residual": 4
+   },
+   "entry_identity_sha256": "aa98a9c04aeb59da6039344f056876287830b899b279d9bf18234c7cc0cc737f",
+   "file": "wh-r0_over_M-2.05-E0.h5",
+   "file_sha256": "c66fcaa73baaccb5b053f2ec552d8679dd7d97a37ac6a34dd8537271a8e8d857",
+   "header_sha256": "aa89423dc964bf23efb231bc40b75443ab32d3f32328829b837a8da08a9e7b91",
+   "identities": {
+    "analysis_param_hash": "dbd0ba3932ace74082bca01f711ddda6dc2dec3d7f2960361e76ed523c3dd58b",
+    "analysis_params": {
+     "r0_over_M": 2.05
+    },
+    "library_experiment_fingerprint": "57c7498aa5ead7ce1e40c4cc2193dff20d66bb05c3f34eae6c23b0b04805cb22",
+    "library_point_id": "wh-dbfd0eafca5a3191",
+    "unmapped_library_params": {}
+   },
+   "levels": [
+    {
+     "actual_dx": 0.2,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999999,
+     "level": "coarse",
+     "psi_sha256": "a54c6f8db54674bae6e81ae88bc6861e5a2eef5c43f37ddb17520e2a52604944",
+     "record_id": "wh-944854bedb2522d1a41cfac1",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.1,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999999996,
+     "level": "medium",
+     "psi_sha256": "ac7e77545ce69e1505fb7bcc0fa3eeff8eeb7994c2acb56cf2c0f1b5ba8e94c5",
+     "record_id": "wh-c2549b17c4582e49ee242c9c",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017499999999999998,
+     "level": "fine",
+     "psi_sha256": "f441ea9c0c2cbc53ffda722e89fe877656ddb339b831a45aec59d88d74c08d6d",
+     "record_id": "wh-c47d89e6e72cdb177924c299",
+     "role": "eco",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.19999999999998863,
+     "covers_0_500_from_t0": true,
+     "dt": 0.06999999999999601,
+     "level": "coarse",
+     "psi_sha256": "232ee342cfdd195163974ab1c51f2897085c50a8ee1bc3891d51aa1fb0bc35f5",
+     "record_id": "bh-d781cf054808f50c333a787d",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.09999999999999432,
+     "covers_0_500_from_t0": true,
+     "dt": 0.034999999999998005,
+     "level": "medium",
+     "psi_sha256": "5c667cf20792053fea4e6ca836a571addcd7792e4887c183ba4cd3997ee82ebf",
+     "record_id": "bh-adedca83d45d12987d41b1cf",
+     "role": "bh",
+     "usable": true
+    },
+    {
+     "actual_dx": 0.05000000000001137,
+     "covers_0_500_from_t0": true,
+     "dt": 0.017500000000003978,
+     "level": "fine",
+     "psi_sha256": "c3f65569e2ae34c5cc1074494d6760ef37536d2cca5ddbc95072111ccadb893c",
+     "record_id": "bh-90b33270f799057672500ffe",
+     "role": "bh",
+     "usable": true
+    }
+   ],
+   "manifest_sha256": "3f5e72ef9a4a74c680eaf0b8c512a3ae1350ef0db170df20a04fc4c95062f42a",
+   "model": "WH",
+   "modes": [
+    {
+     "branch_id": "WH-even-0@r0=2.0005->2.05 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.3494595101473094,
+      -0.005890036704785779
+     ],
+     "sigma_num": 2.949243092248296e-13
+    },
+    {
+     "branch_id": "WH-odd-1@r0=2.0005->2.05 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.4112973233082081,
+      -0.029577597154679867
+     ],
+     "sigma_num": 5.928132140905859e-13
+    },
+    {
+     "branch_id": "WH-even-2@r0=2.0005->2.05 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.511723078530435,
+      -0.13726882553528458
+     ],
+     "sigma_num": 8.853140885707406e-13
+    },
+    {
+     "branch_id": "WH-odd-3@r0=2.0005->2.05 (log(r0/M-2) path)",
+     "evidence": "VERIFIED_BY_VARIATION",
+     "omega": [
+      0.5609571373444766,
+      -0.2298286499909252
+     ],
+     "sigma_num": 1.1882478143033715e-12
+    }
+   ],
+   "modes_status": null,
+   "params": {
+    "r0_over_M": 2.05
+   },
+   "ratio": 2.0,
+   "reflectivity": {
+    "R_barrier": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -5.32775890822788,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.740522064979658e-14,
+      "step_half": 4.3555846952337706e-12
+     }
+    },
+    "R_interface": {
+     "evidence": "VERIFIED_BY_VARIATION",
+     "plane": -5.32775890822788,
+     "variant_max_abs_difference": {
+      "start_radii_changed": 3.5718406435171844e-14,
+      "step_half": 6.984457764648788e-12
+     }
+    }
+   },
+   "reflectivity_archive_sha256": "5926f45c5579cbf92e2a4299b176e77cbe7856c49461e36773fc4a35a4e94f42",
+   "reflectivity_tau_states": {
+    "R_barrier": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 511,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 86
+    },
+    "R_interface": {
+     "PHASE_ILL_CONDITIONED": 0,
+     "RESOLVED": 597,
+     "UNDEFINED": 0,
+     "UNRESOLVED": 0
+    }
+   },
+   "residual_source": "ECO_MINUS_MATCHED_BH"
+  }
+ },
+ "regenerate": "python -m eco_library reproduce (entries are written by its last step); array checksums are in each file's manifest",
+ "version": "eco-analysis-export/0.2"
+}

@@ -1,0 +1,132 @@
+{
+ "conclusion": "not resolution (fractions and discrepancies identical within 0.3% at h=0.05, 0.025, 0.0125), not FFT window (1e6 fraction unchanged with a 4x longer kernel FFT; the 3.5e-5 floor at 1e8-1e12 drops to 4e-6, i.e. that floor is the FFT window), but a property of the prescription: the OWA reflection referenced at any plane of the near-horizon free region (V < 1e-8 requires x <= -35 M) keeps a negative-lag L2 fraction >= 7.2e-4 at E_Pl M = 1e6, and the causal time-domain implementation then differs from the exact frequency-domain one by >= 1.49% in the late window (gate 1%). E_Pl M = 1e6 stays INCONCLUSIVE; validated QH claims are limited to the accepted points 1e8, 1e10, 1e12.",
+ "control_1e8_FD_minus_PDE_late_relative_h0.05": {
+  "-35": 0.001323,
+  "-40": 0.001414
+ },
+ "kernel_negative_lag_fraction_1e6_vs_plane": {
+  "-35": {
+   "V": 6.9e-09,
+   "neg": [
+    0.0007216,
+    0.0007227,
+    0.0007232
+   ],
+   "peak_lag_M": 54.8
+  },
+  "-36": {
+   "V": 4.2e-09,
+   "neg": [
+    0.0009259,
+    0.0009273,
+    0.000928
+   ],
+   "peak_lag_M": 52.8
+  },
+  "-38": {
+   "V": 1.5e-09,
+   "neg": [
+    0.001525,
+    0.001528,
+    0.001529
+   ],
+   "peak_lag_M": 48.8
+  },
+  "-40": {
+   "V": 5.7e-10,
+   "neg": [
+    0.002514,
+    0.002518,
+    0.00252
+   ],
+   "peak_lag_M": 44.8
+  },
+  "levels_h": [
+   0.05,
+   0.025,
+   0.0125
+  ]
+ },
+ "kernel_negative_lag_fraction_vs_hierarchy_and_plane": {
+  "1e+06": {
+   "kernel_peak_lag_M": 44.837500000000006,
+   "neg_h0.0125": 0.0025200092196121754,
+   "neg_h0.05": 0.0025141047740677895,
+   "neg_nfft_x4": 0.00251913345714453,
+   "neg_surface_-60": 0.4092800776592472,
+   "peak_surface_-60": 4.8375
+  },
+  "1e+07": {
+   "kernel_peak_lag_M": 63.25,
+   "neg_h0.0125": 0.0002549905731907044,
+   "neg_h0.05": 0.00025440565592932683,
+   "neg_nfft_x4": 0.0002519852533529048,
+   "neg_surface_-60": 0.0374963286943504,
+   "peak_surface_-60": 23.25
+  },
+  "1e+08": {
+   "kernel_peak_lag_M": 81.67500000000001,
+   "neg_h0.0125": 4.3499220607835336e-05,
+   "neg_h0.05": 4.346405674776622e-05,
+   "neg_nfft_x4": 2.5601928029462238e-05,
+   "neg_surface_-60": 0.0037395569375474587,
+   "peak_surface_-60": 41.675000000000004
+  },
+  "1e+10": {
+   "kernel_peak_lag_M": 118.5125,
+   "neg_h0.0125": 3.5104958945980966e-05,
+   "neg_h0.05": 3.510486252933441e-05,
+   "neg_nfft_x4": 4.343499628615272e-06,
+   "neg_surface_-60": 5.1684676411175784e-05,
+   "peak_surface_-60": 78.5125
+  },
+  "1e+12": {
+   "kernel_peak_lag_M": 155.3625,
+   "neg_h0.0125": 3.522706357030641e-05,
+   "neg_h0.05": 3.5226982361086667e-05,
+   "neg_nfft_x4": 4.337633361712079e-06,
+   "neg_surface_-60": 3.5097511444518084e-05,
+   "peak_surface_-60": 115.36250000000001
+  },
+  "3e+06": {
+   "kernel_peak_lag_M": 53.625,
+   "neg_h0.0125": 0.0008410930597634477,
+   "neg_h0.05": 0.0008391264853309344,
+   "neg_nfft_x4": 0.0008397397548749291,
+   "neg_surface_-60": 0.1298505878186786,
+   "peak_surface_-60": 13.625
+  },
+  "3e+07": {
+   "kernel_peak_lag_M": 72.05,
+   "neg_h0.0125": 9.157839922800837e-05,
+   "neg_h0.05": 9.139645688087018e-05,
+   "neg_nfft_x4": 8.412254595194358e-05,
+   "neg_surface_-60": 0.012466722418825425,
+   "peak_surface_-60": 32.050000000000004
+  }
+ },
+ "original_record": {
+  "FD_minus_PDE_late_relative_by_h": {
+   "0.0125": 0.052056904246717516,
+   "0.025": 0.05197166336939428,
+   "0.05": 0.051720964406831126
+  },
+  "block": "B2",
+  "gate": 0.01,
+  "negative_lag_L2_fraction_by_h": {
+   "0.0125": 0.0025200092196121754,
+   "0.025": 0.0025180405549195153,
+   "0.05": 0.0025141047740677895
+  },
+  "root": "library-v1-b2",
+  "screen": 0.001,
+  "state": "INCONCLUSIVE (preserved)"
+ },
+ "pde_correction_causality": "PDE correction exactly 0 before the first reflection and below 1e-14 in [100,190]; the FD production correction carries a ~5e-10 precursor there (the acausal part of the prescription)",
+ "pde_wall_at_-35_FD_minus_PDE_late_relative": {
+  "0.0125": 0.01489,
+  "0.025": 0.0149,
+  "0.05": 0.015
+ },
+ "study": "QH E_Pl M = 1e6 independent-PDE failure (block B2)"
+}

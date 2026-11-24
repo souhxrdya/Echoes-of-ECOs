@@ -22,7 +22,7 @@ Throughout: linear, nonrotating, axial (odd-parity) l = 2 perturbations, G = c =
 | Stage | Folder | Content | Status |
 |---|---|---|---|
 | 1 | [`baseline`](baseline) | the equations of all models implemented and validated in one notebook | done |
-| 2 | `response-library` | converged, independently checked responses of each model at four parameter points | in progress |
+| 2 | [`response-library`](response-library) | converged, independently checked responses of each model at four parameter points | done |
 | 3 | [`signatures`](signatures) | ECO–BH differences in ringdown, echoes, spectra, phase and group delay | planned |
 | 4 | [`signature-atlas`](signature-atlas) | model-by-model atlas of which features are generic and which are model specific | planned |
 | 5 | [`distinguishability`](distinguishability) | degeneracies: noise-weighted mismatches between the BH and the ECOs and among ECOs | planned |
@@ -35,7 +35,21 @@ reproduce it, and it holds its own code, tests, documents and results.
 
 ## Where to start
 
-[`baseline/README.md`](baseline/README.md): what the validated notebook computes and how to view or run it.
+1. [`baseline/README.md`](baseline/README.md): what the validated notebook computes and how to view or run it.
+2. [`response-library/walkthrough.ipynb`](response-library/walkthrough.ipynb): a guided tour of the
+   response library with its code and figures; it opens on GitHub without running anything.
+3. [`response-library/README.md`](response-library/README.md): the results, and the commands that
+   check and reproduce them.
+
+```
+git clone https://github.com/souhxrdya/Echoes-of-ECOs.git
+cd Echoes-of-ECOs/response-library
+pip install -r requirements.txt
+python -m eco_library audit        # checks the committed results in a few seconds
+jupyter notebook walkthrough.ipynb
+```
+
+Python 3.10 or 3.11 is assumed.
 
 ## References
 

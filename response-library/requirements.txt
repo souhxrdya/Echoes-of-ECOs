@@ -1,0 +1,8 @@
+# Versions used to compute and check the committed results (Linux, CPython 3.10.12).
+numpy==1.26.4
+scipy==1.15.3
+h5py==3.13.0
+pytest==9.2.0
+# walkthrough notebook and its figures
+matplotlib==3.9.2
+notebook==7.6.5

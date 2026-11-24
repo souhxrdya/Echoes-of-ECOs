@@ -1,0 +1,241 @@
+{
+ "r_peak_M": 3.280776360319764,
+ "rows": [
+  {
+   "basis": "stellar response decays to ~1e-12 by 450 M (GATE_AUDIT.md); modes withdrawn",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": null,
+   "model": "BS",
+   "params": {
+    "sigma_c": 0.22
+   },
+   "record_needed_M_declared_rule": null,
+   "round_trip_M": null,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 23.832090218868228,
+   "echo_arrivals_M": null,
+   "model": "GS",
+   "params": {
+    "compactness": 0.44
+   },
+   "record_needed_M_declared_rule": 223.85020079116316,
+   "round_trip_M": null,
+   "slowest_decay_time_M": 15.725806098364947,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "round trip 8 ln(E_Pl M/omega) at omega 0.4 (TRANSFER_AND_MODES.md); no decay time (modes not computed)",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": [
+    336.7583035938553,
+    528.2954368883723,
+    719.832570182889
+   ],
+   "model": "QH",
+   "params": {
+    "EplM": 10000000000.0,
+    "gamma": 1.0
+   },
+   "record_needed_M_declared_rule": 1102.9068367719228,
+   "round_trip_M": 191.53713329451688,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 0.05183851629767618,
+   "echo_arrivals_M": null,
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.005
+   },
+   "record_needed_M_declared_rule": 36293.90524417802,
+   "round_trip_M": 24.73468788909358,
+   "slowest_decay_time_M": 7229.736814775737,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "stellar response decays to ~1e-12 by 450 M (GATE_AUDIT.md); modes withdrawn",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": null,
+   "model": "BS",
+   "params": {
+    "sigma_c": 0.270963318550685
+   },
+   "record_needed_M_declared_rule": null,
+   "round_trip_M": null,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "INCONCLUSIVE"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 9.362411019210555,
+   "echo_arrivals_M": null,
+   "model": "GS",
+   "params": {
+    "compactness": 0.47
+   },
+   "record_needed_M_declared_rule": 345.37198024116856,
+   "round_trip_M": null,
+   "slowest_decay_time_M": 40.030161988366025,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "round trip 8 ln(E_Pl M/omega) at omega 0.4 (TRANSFER_AND_MODES.md); no decay time (modes not computed)",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": [
+    299.9169421059506,
+    454.61271391256275,
+    609.308485719175
+   ],
+   "model": "QH",
+   "params": {
+    "EplM": 100000000.0,
+    "gamma": 1.0
+   },
+   "record_needed_M_declared_rule": 918.7000293323993,
+   "round_trip_M": 154.69577180661216,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 0.002482464745339261,
+   "echo_arrivals_M": null,
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.0005
+   },
+   "record_needed_M_declared_rule": 754997.4912867137,
+   "round_trip_M": 33.95402826106834,
+   "slowest_decay_time_M": 150970.4540232829,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "stellar response decays to ~1e-12 by 450 M (GATE_AUDIT.md); modes withdrawn",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": null,
+   "model": "BS",
+   "params": {
+    "sigma_c": 0.18
+   },
+   "record_needed_M_declared_rule": null,
+   "round_trip_M": null,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 41.74469690399081,
+   "echo_arrivals_M": null,
+   "model": "GS",
+   "params": {
+    "compactness": 0.4
+   },
+   "record_needed_M_declared_rule": 190.11056434172667,
+   "round_trip_M": null,
+   "slowest_decay_time_M": 8.977878808477648,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "round trip 8 ln(E_Pl M/omega) at omega 0.4 (TRANSFER_AND_MODES.md); no decay time (modes not computed)",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": [
+    263.0755806180459,
+    380.92999093675326,
+    498.7844012554607
+   ],
+   "model": "QH",
+   "params": {
+    "EplM": 1000000.0,
+    "gamma": 1.0
+   },
+   "record_needed_M_declared_rule": 734.4932218928755,
+   "round_trip_M": 117.85441031870742,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "INCONCLUSIVE"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 2.207461063113555,
+   "echo_arrivals_M": null,
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.05
+   },
+   "record_needed_M_declared_rule": 994.112314888878,
+   "round_trip_M": 15.434347517117326,
+   "slowest_decay_time_M": 169.7782289179079,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "stellar response decays to ~1e-12 by 450 M (GATE_AUDIT.md); modes withdrawn",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": null,
+   "model": "BS",
+   "params": {
+    "sigma_c": 0.25
+   },
+   "record_needed_M_declared_rule": null,
+   "round_trip_M": null,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 1.3149813114773452,
+   "echo_arrivals_M": null,
+   "model": "GS",
+   "params": {
+    "compactness": 0.49
+   },
+   "record_needed_M_declared_rule": 1570.2559842147084,
+   "round_trip_M": null,
+   "slowest_decay_time_M": 285.006962783074,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "round trip 8 ln(E_Pl M/omega) at omega 0.4 (TRANSFER_AND_MODES.md); no decay time (modes not computed)",
+   "decay_times_in_520M": null,
+   "echo_arrivals_M": [
+    373.59966508176007,
+    601.9781598641816,
+    830.3566546466034
+   ],
+   "model": "QH",
+   "params": {
+    "EplM": 1000000000000.0,
+    "gamma": 1.0
+   },
+   "record_needed_M_declared_rule": 1287.1136442114464,
+   "round_trip_M": 228.37849478242163,
+   "slowest_decay_time_M": null,
+   "state_v1_0": "ACCEPTED_V1"
+  },
+  {
+   "basis": "slowest verified pole (catalogue v1.0 modes; not exhaustive)",
+   "decay_times_in_520M": 0.4971060703904072,
+   "echo_arrivals_M": null,
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.02
+   },
+   "record_needed_M_declared_rule": 3914.8274175769593,
+   "round_trip_M": 19.15951044461393,
+   "slowest_decay_time_M": 753.9212494555242,
+   "state_v1_0": "ACCEPTED_V1"
+  }
+ ],
+ "rule": "record end >= t_arrival + max(5 round trips, 5 slowest decay times) (TRANSFER_AND_MODES.md Section 4)",
+ "single_slice_reach_M": {
+  "QH_two_stage_TD": 600,
+  "two_boundary_TD_dx_0.05": 1000
+ },
+ "source": "docs/results/library-v1-catalogue.json (v1.0 modes) and TRANSFER_AND_MODES.md Section 4",
+ "summary_version": "record-length-requirements/1",
+ "t_arrival_M": 145.22117029933844
+}

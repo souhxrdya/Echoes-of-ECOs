@@ -1,0 +1,546 @@
+{
+ "plan_commit": "629d7a6",
+ "plan_file": "docs/EDGE_ROBUSTNESS_PLAN.md",
+ "plan_version": "edge-robustness/0.1",
+ "points": {
+  "GS compactness=0.49": {
+   "E0_reference_root": "library-v1-b3",
+   "bh_sequence": "BHGS",
+   "params": {
+    "compactness": 0.49
+   },
+   "producer_provenance": {
+    "git_commit": "629d7a6f4b33064379617725a376919b62a91105",
+    "git_dirty": false,
+    "h5py": "3.13.0",
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+   },
+   "record_ends": [
+    544.9334526033404,
+    545.0041130614062,
+    545.0041130614061,
+    544.9334526033033,
+    545.0041130614458,
+    545.0041130612924
+   ],
+   "root": "edge-o120-b3",
+   "sequence": "GS",
+   "supplementary_retarded_time_difference": {
+    "definition": "ROBUSTNESS_RESULTS.md Section 3 (residual at t-25 vs E0 record, E0 windows)",
+    "predeclared": false,
+    "retarded_shift_M": 25.0,
+    "windows": {
+     "full": {
+      "E0_refinement_budget_L2_catalogue": 6.954346478594412e-05,
+      "E0_residual_L2": 0.5653790962873048,
+      "O120_paired_budget_L2": 6.945356458797318e-05,
+      "difference_L2": 0.011208249153190348,
+      "refinement_budgets_fraction_of_difference": 0.012401315091604005,
+      "relative_difference": 0.019824307666823835
+     },
+     "late": {
+      "E0_refinement_budget_L2_catalogue": 6.867232111542803e-05,
+      "E0_residual_L2": 0.44317245443430875,
+      "O120_paired_budget_L2": 6.862138849288011e-05,
+      "difference_L2": 0.009722591005816893,
+      "refinement_budgets_fraction_of_difference": 0.014121103060507963,
+      "relative_difference": 0.02193861759352209
+     }
+    }
+   },
+   "windows": {
+    "full": {
+     "bh_p_observed": 3.9990594989398445,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 0.00012291177747367755,
+     "eco_p_observed": 2.015260509117369,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 6.945356458797318e-05,
+     "predeclared": true,
+     "relative_change_E0_to_O120": -0.0005494908869276561,
+     "residual_norm_E0_stored_block": 0.5653790962873048,
+     "residual_norm_O120": 0.5650684256262355,
+     "state": "MEASURED",
+     "window_E0": [
+      100.0,
+      500.0
+     ],
+     "window_O120": [
+      125.0,
+      525.0
+     ]
+    },
+    "late": {
+     "bh_p_observed": 4.002744048947993,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 0.00015488340540046724,
+     "eco_p_observed": 2.010815231712797,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 6.862138849288011e-05,
+     "predeclared": true,
+     "relative_change_E0_to_O120": -0.0002720048595838142,
+     "residual_norm_E0_stored_block": 0.44317245443430875,
+     "residual_norm_O120": 0.44305190937306893,
+     "state": "MEASURED",
+     "window_E0": [
+      190.0,
+      500.0
+     ],
+     "window_O120": [
+      215.0,
+      525.0
+     ]
+    },
+    "prompt": {
+     "bh_p_observed": 3.9990358841236118,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 3.1328244440658804e-05,
+     "eco_p_observed": 2.141286244588481,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 1.0952716616290418e-05,
+     "predeclared": false,
+     "relative_change_E0_to_O120": -0.0009737730384476366,
+     "residual_norm_E0_stored_block": 0.3499523407082846,
+     "residual_norm_O120": 0.34961156655416126,
+     "state": "MEASURED",
+     "window_E0": [
+      100.0,
+      190.0
+     ],
+     "window_O120": [
+      125.0,
+      215.0
+     ]
+    },
+    "ringdown": {
+     "bh_p_observed": 3.999923656520674,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 3.1326570228535795e-05,
+     "eco_p_observed": 2.1411948265207594,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 1.0952131272297478e-05,
+     "predeclared": false,
+     "relative_change_E0_to_O120": -0.0009737729807483135,
+     "residual_norm_E0_stored_block": 0.34995234004678244,
+     "residual_norm_O120": 0.34961156591349524,
+     "state": "MEASURED",
+     "window_E0": [
+      150.0,
+      190.0
+     ],
+     "window_O120": [
+      175.0,
+      215.0
+     ]
+    }
+   }
+  },
+  "WH r0_over_M=2.0005": {
+   "E0_reference_root": "library-v1-b1",
+   "bh_sequence": "BH",
+   "params": {
+    "r0_over_M": 2.0005
+   },
+   "producer_provenance": {
+    "git_commit": "629d7a6f4b33064379617725a376919b62a91105",
+    "git_dirty": false,
+    "h5py": "3.13.0",
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+   },
+   "record_ends": [
+    545.02,
+    545.02,
+    544.9849999999999,
+    545.019999999969,
+    545.019999999969,
+    544.9850000001238
+   ],
+   "root": "edge-o120-b1",
+   "sequence": "WH",
+   "supplementary_retarded_time_difference": {
+    "definition": "ROBUSTNESS_RESULTS.md Section 3 (residual at t-25 vs E0 record, E0 windows)",
+    "predeclared": false,
+    "retarded_shift_M": 25.0,
+    "windows": {
+     "full": {
+      "E0_refinement_budget_L2_catalogue": 5.921135143346751e-08,
+      "E0_residual_L2": 0.30352116098130294,
+      "O120_paired_budget_L2": 7.044751145876475e-08,
+      "difference_L2": 0.0057107662010949115,
+      "refinement_budgets_fraction_of_difference": 2.2704284911431515e-05,
+      "relative_difference": 0.01881505125583879
+     },
+     "late": {
+      "E0_refinement_budget_L2_catalogue": 2.786743540037305e-08,
+      "E0_residual_L2": 0.29071945944607563,
+      "O120_paired_budget_L2": 3.2124007250082695e-08,
+      "difference_L2": 0.005603625925162791,
+      "refinement_budgets_fraction_of_difference": 1.0705825737058445e-05,
+      "relative_difference": 0.01927502870237754
+     }
+    }
+   },
+   "windows": {
+    "full": {
+     "bh_p_observed": 3.99942137814773,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 2.3221314581739382e-07,
+     "eco_p_observed": 4.004351670791214,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 7.044751145876475e-08,
+     "predeclared": true,
+     "relative_change_E0_to_O120": -0.0004837028827849501,
+     "residual_norm_E0_stored_block": 0.30352116098130294,
+     "residual_norm_O120": 0.30337434692075005,
+     "state": "MEASURED",
+     "window_E0": [
+      100.0,
+      500.0
+     ],
+     "window_O120": [
+      125.0,
+      525.0
+     ]
+    },
+    "late": {
+     "bh_p_observed": 3.999556127452441,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 1.1052245984347676e-07,
+     "eco_p_observed": 4.007034064907573,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 3.2124007250082695e-08,
+     "predeclared": true,
+     "relative_change_E0_to_O120": -0.0002185592030830804,
+     "residual_norm_E0_stored_block": 0.29071945944607563,
+     "residual_norm_O120": 0.29065592003269836,
+     "state": "MEASURED",
+     "window_E0": [
+      190.0,
+      500.0
+     ],
+     "window_O120": [
+      215.0,
+      525.0
+     ]
+    },
+    "prompt": {
+     "bh_p_observed": 3.9994206582970286,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 6.904561621111971e-07,
+     "eco_p_observed": 4.002551985225393,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 5.9395185280591184e-08,
+     "predeclared": false,
+     "relative_change_E0_to_O120": -0.0033432298733481604,
+     "residual_norm_E0_stored_block": 0.08631166815005964,
+     "residual_norm_O120": 0.08602310840268185,
+     "state": "MEASURED",
+     "window_E0": [
+      100.0,
+      190.0
+     ],
+     "window_O120": [
+      125.0,
+      215.0
+     ]
+    },
+    "ringdown": {
+     "bh_p_observed": 3.99935087837269,
+     "bh_state": "OBSERVED_ORDER_CONSISTENT",
+     "budget_fraction": 6.662011447587861e-07,
+     "eco_p_observed": 4.003017584776173,
+     "eco_state": "OBSERVED_ORDER_CONSISTENT",
+     "paired_budget_L2": 5.7308693293575795e-08,
+     "predeclared": false,
+     "relative_change_E0_to_O120": -0.0033432298733481604,
+     "residual_norm_E0_stored_block": 0.08631166815005964,
+     "residual_norm_O120": 0.08602310840268185,
+     "state": "MEASURED",
+     "window_E0": [
+      150.0,
+      190.0
+     ],
+     "window_O120": [
+      175.0,
+      215.0
+     ]
+    }
+   }
+  }
+ },
+ "roots": {
+  "edge-o120-b1": {
+   "archive_sha256": {
+    "execution/20261123T155411-58b60b70.json": "4156cd5a52392815b6f609ad6bc5bde4dbcb62156afe99f4b776a57483874ef4",
+    "plan.json": "fecb96d6f934234bd43d644454e7c8eba6ab2a078ed62c01fdccf8e1d51bc779",
+    "records/bh-674c6d07bd54a462af6bc28a.h5": "e0cb3edb713a679c1e223c5f26dcf595fc682f98a89004f865b1938a0221351a",
+    "records/bh-b0c0289ace4d6bbae2f2c86e.h5": "85c968f88a90e60996ff7a995d8ead3b863aaa3974b797b27f7c4e8ddfc1df41",
+    "records/bh-fed424af273bd74ef3cd272c.h5": "dbf05e50b57fa8a531e439f79481da21e4f069719f54d54edb299d9159c3c17c",
+    "records/wh-4e9a20de913868551ca7d4cc.h5": "26154f315e935ee161df4a2e3a457889e696b11b546cfc7c14d90c4ec2ade36e",
+    "records/wh-a12e6d4f3a38c9c6a64d7b98.h5": "9a6fa7c4a3b3e518621c2a1d4636b7cd2f14caa6a29fa3ae9e1c0179021317e6",
+    "records/wh-f6e92307befd1861af6c2ccd.h5": "ecefe247a0cd36d104f453a507eee86c884b9b8195ef809dcd924abf5c18dba0"
+   },
+   "executed_labels": [
+    "WH_coarse",
+    "WH_medium",
+    "WH_fine",
+    "BH_coarse",
+    "BH_medium",
+    "BH_fine"
+   ],
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 120.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "experiment_fingerprint": "12e60fc6fae6b2b193d2dd82c614d24b6635316ba013494e1f4639a24630f653",
+   "integrity_of_mounted_copy": {
+    "checked": 8,
+    "matched": 8,
+    "mismatched": [],
+    "missing": [],
+    "state": "PASS",
+    "unlisted": []
+   },
+   "not_executed": [
+    "BHGS_HALF_TIMESTEP",
+    "BHGS_LEFT_DOMAIN",
+    "BHGS_RIGHT_DOMAIN",
+    "BHGS_coarse",
+    "BHGS_fine",
+    "BHGS_medium",
+    "BH_HALF_TIMESTEP",
+    "BH_LEFT_DOMAIN",
+    "BH_RIGHT_DOMAIN",
+    "BH_RUNTIME_REPLAY",
+    "BS_BACKGROUND_SEQUENCE",
+    "BS_BVP_TOL",
+    "BS_DOMAIN_24001",
+    "BS_HALF_TIMESTEP",
+    "BS_PROFILE_10001",
+    "BS_PROFILE_20001",
+    "BS_PROFILE_5001",
+    "BS_RIGHT_DOMAIN",
+    "BS_TABLE_BENCHMARK",
+    "BS_coarse",
+    "BS_fine",
+    "BS_medium",
+    "GS_HALF_TIMESTEP",
+    "GS_RIGHT_DOMAIN",
+    "GS_coarse",
+    "GS_fine",
+    "GS_medium",
+    "QH_CAUSAL_0.0125",
+    "QH_CAUSAL_0.025",
+    "QH_CAUSAL_0.05",
+    "QH_GRID2",
+    "QH_HALF_TIMESTEP",
+    "QH_JOST_STEP",
+    "QH_LEFT_DOMAIN",
+    "QH_PADDING2",
+    "QH_PDE_0.0125",
+    "QH_PDE_0.025",
+    "QH_PDE_0.05",
+    "QH_PLANE_50",
+    "QH_RADIUS300",
+    "QH_RIGHT_DOMAIN",
+    "QH_coarse",
+    "QH_fine",
+    "QH_medium",
+    "WH_HALF_TIMESTEP",
+    "WH_LEFT_DOMAIN",
+    "WH_RIGHT_DOMAIN"
+   ],
+   "plan_sha256": "7a7e5899443a9e3c5df82411568cc5d5e02c1474c2d4286e40e484491cb0afc4",
+   "readback": {
+    "BH_coarse": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "BH_fine": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "BH_medium": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "WH_coarse": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "WH_fine": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "WH_medium": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    }
+   }
+  },
+  "edge-o120-b3": {
+   "archive_sha256": {
+    "execution/20261123T155246-d456dfe4.json": "5d5a9d34419d520fde5bb2ca9381ef3a6255674f06cf6f0dda54343714129869",
+    "plan.json": "7b12f3398c14c862e8296a8bc1cf53b85ac08ed35dbceb5ffb9a407ecfa15b78",
+    "records/bh-44cc2f8fe547f0517508a091.h5": "838acabf644f32571df7afc6a27532e86ceb2464917c10af5ab7881afc38f1d6",
+    "records/bh-5aba5abbc08b0f32f0b4b175.h5": "2657bf4cf8abdc41b63e7f8820e1dc09351825293316528d6e4ec46d6f1cdc08",
+    "records/bh-c2c6e7d8decd8fa749242988.h5": "b20581e311f0f5f6eee27a4db8c75b383ffaecfd1d91c954377439cf0e4a82dd",
+    "records/gs-0ca7edcc3ac1736ce0560252.h5": "e24476f90c8ba53c2f67aa378aaea07e0fb80e1323aedf73fbee7ec39cd2aa51",
+    "records/gs-3f0119cf182603f329ae49a0.h5": "fa165a3216e2d9a1e407c00b3165bc825218011959e5b2105b68d97784fb39a3",
+    "records/gs-7011ff86292e21745b0696cd.h5": "ce80c84a8235080a191590d0e21e3794e066790e062ef1c325936d8aa403bf85"
+   },
+   "executed_labels": [
+    "GS_coarse",
+    "GS_medium",
+    "GS_fine",
+    "BHGS_coarse",
+    "BHGS_medium",
+    "BHGS_fine"
+   ],
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 120.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "experiment_fingerprint": "12e60fc6fae6b2b193d2dd82c614d24b6635316ba013494e1f4639a24630f653",
+   "integrity_of_mounted_copy": {
+    "checked": 8,
+    "matched": 8,
+    "mismatched": [],
+    "missing": [],
+    "state": "PASS",
+    "unlisted": []
+   },
+   "not_executed": [
+    "BHGS_HALF_TIMESTEP",
+    "BHGS_LEFT_DOMAIN",
+    "BHGS_RIGHT_DOMAIN",
+    "BH_HALF_TIMESTEP",
+    "BH_LEFT_DOMAIN",
+    "BH_RIGHT_DOMAIN",
+    "BH_RUNTIME_REPLAY",
+    "BH_coarse",
+    "BH_fine",
+    "BH_medium",
+    "BS_BACKGROUND_SEQUENCE",
+    "BS_BVP_TOL",
+    "BS_DOMAIN_24001",
+    "BS_HALF_TIMESTEP",
+    "BS_PROFILE_10001",
+    "BS_PROFILE_20001",
+    "BS_PROFILE_5001",
+    "BS_RIGHT_DOMAIN",
+    "BS_TABLE_BENCHMARK",
+    "BS_coarse",
+    "BS_fine",
+    "BS_medium",
+    "GS_HALF_TIMESTEP",
+    "GS_RIGHT_DOMAIN",
+    "QH_CAUSAL_0.0125",
+    "QH_CAUSAL_0.025",
+    "QH_CAUSAL_0.05",
+    "QH_GRID2",
+    "QH_HALF_TIMESTEP",
+    "QH_JOST_STEP",
+    "QH_LEFT_DOMAIN",
+    "QH_PADDING2",
+    "QH_PDE_0.0125",
+    "QH_PDE_0.025",
+    "QH_PDE_0.05",
+    "QH_PLANE_50",
+    "QH_RADIUS300",
+    "QH_RIGHT_DOMAIN",
+    "QH_coarse",
+    "QH_fine",
+    "QH_medium",
+    "WH_HALF_TIMESTEP",
+    "WH_LEFT_DOMAIN",
+    "WH_RIGHT_DOMAIN",
+    "WH_coarse",
+    "WH_fine",
+    "WH_medium"
+   ],
+   "plan_sha256": "b168d4fe362a8641481e9fc208a1795dec13cd34a90fc90e7d1d1b11e1e7f7e5",
+   "readback": {
+    "BHGS_coarse": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "BHGS_fine": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "BHGS_medium": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "GS_coarse": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "GS_fine": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    },
+    "GS_medium": {
+     "archive_state": "VERIFIED",
+     "failed_checks": [],
+     "record_check_state": "PASSED"
+    }
+   }
+  }
+ },
+ "rule": {
+  "MEASURED": "both O120 sequences OBSERVED_ORDER_CONSISTENT in the window (declared order, band 0.5) and paired budget <= 0.1 x BH-subtracted residual norm",
+  "otherwise": "UNQUANTIFIED"
+ },
+ "statements": {
+  "catalogue_state_changes": "NONE",
+  "observer_dependence_threshold": "NONE (physics, reported)",
+  "source_position_dependence": "NOT_STUDIED",
+  "source_width_dependence": "measured at the four B0 points only (ROBUSTNESS_RESULTS.md)"
+ },
+ "summary_version": "edge-robustness-summary/1"
+}

@@ -1,0 +1,32 @@
+{
+ "basis": "the runtime that assembled this catalogue; a byte-identical rebuild in this runtime is the SAME_RUNTIME tier of eco_library.verification",
+ "catalogue": "catalogue.json",
+ "catalogue_sha256": "c62d01fd0b2cbadb68d443173ecf3e7b8eb640cb22794202538a71eaa92c3995",
+ "policy": "library-verification/1.0",
+ "reference_runtime": {
+  "h5py": "3.13.0",
+  "libc": "glibc-2.35",
+  "machine": "x86_64",
+  "numpy": "1.26.4",
+  "numpy_dispatched_cpu_features": [
+   "AVX",
+   "AVX2",
+   "AVX512CD",
+   "AVX512F",
+   "AVX512_CLX",
+   "AVX512_CNL",
+   "AVX512_ICL",
+   "AVX512_SKX",
+   "F16C",
+   "FMA3",
+   "POPCNT",
+   "SSE41",
+   "SSE42",
+   "SSSE3"
+  ],
+  "python": "3.10.12",
+  "python_implementation": "CPython",
+  "scipy": "1.15.3",
+  "system": "Linux"
+ }
+}

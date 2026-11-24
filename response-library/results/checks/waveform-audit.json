@@ -1,0 +1,206 @@
+{
+ "gs-compactness-0.44-E0": {
+  "declared_order": 2,
+  "boundary_margin_M_min": 97.87959538198788,
+  "local_order_late_weighted_median": 2.0156187950189417,
+  "local_order_late_p05_p95": [
+   2.014035809864052,
+   2.027174097582204
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6186405128987786,
+  "t_end_common": 519.96,
+  "late_residual_over_total": 1.0988401132274228
+ },
+ "gs-compactness-0.47-E0": {
+  "declared_order": 2,
+  "boundary_margin_M_min": 97.94717789509923,
+  "local_order_late_weighted_median": 2.012490634430945,
+  "local_order_late_p05_p95": [
+   2.0109633164621057,
+   2.022237909153069
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6230747350741546,
+  "t_end_common": 519.96,
+  "late_residual_over_total": 0.9401172711229515
+ },
+ "gs-compactness-0.4-E0": {
+  "declared_order": 2,
+  "boundary_margin_M_min": 97.90100102675933,
+  "local_order_late_weighted_median": 2.0185183131557336,
+  "local_order_late_p05_p95": [
+   2.0119403164951026,
+   2.033912695869566
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6056304090024179,
+  "t_end_common": 519.96,
+  "late_residual_over_total": 1.8229836101090247
+ },
+ "gs-compactness-0.49-E0": {
+  "declared_order": 2,
+  "boundary_margin_M_min": 97.93902863585163,
+  "local_order_late_weighted_median": 2.0098378877254452,
+  "local_order_late_p05_p95": [
+   2.008909628377402,
+   2.0164363070307934
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6220819383743312,
+  "t_end_common": 519.96,
+  "late_residual_over_total": 1.0356470662062436
+ },
+ "wh-r0_over_M-2.005-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 78.01414181156792,
+  "local_order_late_weighted_median": 3.993110521165903,
+  "local_order_late_p05_p95": [
+   3.8531246717989585,
+   4.124051531203871
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6220257112137619,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 0.9904901928169542
+ },
+ "wh-r0_over_M-2.0005-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 68.79480143959313,
+  "local_order_late_weighted_median": 3.96422876291232,
+  "local_order_late_p05_p95": [
+   3.853624338621915,
+   4.053904170836872
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6220253009076049,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 1.0302852041883945
+ },
+ "wh-r0_over_M-2.05-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 87.31448218354421,
+  "local_order_late_weighted_median": 3.8703122547075166,
+  "local_order_late_p05_p95": [
+   3.7985484978347435,
+   4.090238403175791
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6226321573446774,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 0.9770932684149635
+ },
+ "wh-r0_over_M-2.02-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 83.5893192560477,
+  "local_order_late_weighted_median": 3.9693922978600074,
+  "local_order_late_p05_p95": [
+   3.939479269186872,
+   4.026953204579838
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.6221032053736388,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 1.020955739547403
+ },
+ "bs-sigma_c-0.22-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 96.95985505878059,
+  "local_order_late_weighted_median": 3.859090818126811,
+  "local_order_late_p05_p95": [
+   3.7651154021080546,
+   3.956165769392494
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.7600439351090514,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 11.099006966338141
+ },
+ "bs-sigma_c-0.270963-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 95.67689317751137,
+  "local_order_late_weighted_median": 4.051827323855602,
+  "local_order_late_p05_p95": [
+   4.014999713135911,
+   4.167243875412694
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.7517493313582172,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 11.041918763051251
+ },
+ "bs-sigma_c-0.18-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 97.9699999999558,
+  "local_order_late_weighted_median": 3.9012516233705217,
+  "local_order_late_p05_p95": [
+   3.8166704539456644,
+   4.02615896716214
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.7617797410201105,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 11.406828568732175
+ },
+ "bs-sigma_c-0.25-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 96.18610135874951,
+  "local_order_late_weighted_median": 3.8205490199433916,
+  "local_order_late_p05_p95": [
+   3.785933049458235,
+   3.9412474093306558
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.7557645680549202,
+  "t_end_common": 519.8900000000001,
+  "late_residual_over_total": 11.034657193247265
+ },
+ "qh-EplM-1e+10-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 97.9699999999558,
+  "local_order_late_weighted_median": 3.9994841663056633,
+  "local_order_late_p05_p95": [
+   3.993572608661916,
+   4.0017731905373
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.0006833870202635415,
+  "t_end_common": 519.8900000000001
+ },
+ "qh-EplM-1e+08-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 97.9699999999558,
+  "local_order_late_weighted_median": 3.999872266810711,
+  "local_order_late_p05_p95": [
+   3.9955707752945364,
+   4.006282782287343
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.0006833574915483452,
+  "t_end_common": 519.8900000000001
+ },
+ "qh-EplM-1e+06-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 97.9699999999558,
+  "local_order_late_weighted_median": 3.999811999090473,
+  "local_order_late_p05_p95": [
+   3.9986094928815725,
+   4.001746417084851
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.0006833574867087435,
+  "t_end_common": 519.8900000000001
+ },
+ "qh-EplM-1e+12-E0": {
+  "declared_order": 4,
+  "boundary_margin_M_min": 97.9699999999558,
+  "local_order_late_weighted_median": 3.999875486921451,
+  "local_order_late_p05_p95": [
+   3.9974766592785334,
+   4.002439199018024
+  ],
+  "late_weight_fraction_outside_band": 0.0,
+  "peak_abs_fine": 0.0006833703060200305,
+  "t_end_common": 519.8900000000001
+ }
+}

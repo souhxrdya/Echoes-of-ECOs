@@ -1,0 +1,479 @@
+{
+ "plan": {
+  "BH_coarse": {
+   "cfl": 0.35,
+   "dx": 0.2,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "BH",
+   "params": {},
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  },
+  "BH_fine": {
+   "cfl": 0.35,
+   "dx": 0.05,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "BH",
+   "params": {},
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  },
+  "BH_medium": {
+   "cfl": 0.35,
+   "dx": 0.1,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "BH",
+   "params": {},
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  },
+  "WH_coarse": {
+   "cfl": 0.35,
+   "dx": 0.2,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.005
+   },
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  },
+  "WH_fine": {
+   "cfl": 0.35,
+   "dx": 0.05,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.005
+   },
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  },
+  "WH_medium": {
+   "cfl": 0.35,
+   "dx": 0.1,
+   "experiment": {
+    "F_in": 1.0,
+    "M_ADM": 1.0,
+    "amplitude": 1.0,
+    "ell": 2,
+    "field": "Q_RW",
+    "initial_direction": "left",
+    "observer_global_rstar": 95.0,
+    "physical_fourier_convention": "integral psi(t)*exp(+i*omega*t) dt",
+    "polarisation": "axial",
+    "pulse_shape": "exp(-(x-xs)^2/(2*sigma^2)); carrier=0",
+    "sigma": 4.0,
+    "source_global_rstar": 55.0,
+    "t0": 0.0,
+    "time_convention": "exp(-i*omega*t)",
+    "units": "G=c=M_ADM=1"
+   },
+   "model": "WH",
+   "params": {
+    "r0_over_M": 2.005
+   },
+   "sample_every": 2,
+   "t_end": 1000.0,
+   "x_left": -450.0,
+   "x_right": 620.0
+  }
+ },
+ "residual_refinement": {
+  "extended_late": {
+   "actual_h": [
+    0.2,
+    0.1,
+    0.05
+   ],
+   "d_coarse_medium_L2": 1.1807160476924067e-06,
+   "d_medium_fine_L2": 7.404868660822756e-08,
+   "expected_order": 4,
+   "fine_L2": 0.09510110705920975,
+   "fine_error_estimate_L2": 6.193378630765475e-09,
+   "fine_relative_error_estimate": 6.512414862751798e-08,
+   "is_error_bound": false,
+   "order_tolerance": 0.5,
+   "p_observed": 3.9950440933150086,
+   "ratio": 2.0,
+   "reason": "Conditional Richardson estimate; independent systematics not bounded",
+   "state": "OBSERVED_ORDER_CONSISTENT"
+  },
+  "full": {
+   "actual_h": [
+    0.2,
+    0.1,
+    0.05
+   ],
+   "d_coarse_medium_L2": 5.9593156978885455e-06,
+   "d_medium_fine_L2": 3.7079880460760713e-07,
+   "expected_order": 4,
+   "fine_L2": 0.26357489457510747,
+   "fine_error_estimate_L2": 3.075318463824821e-08,
+   "fine_relative_error_estimate": 1.1667721498219126e-07,
+   "is_error_bound": false,
+   "order_tolerance": 0.5,
+   "p_observed": 4.0064381789261345,
+   "ratio": 2.0,
+   "reason": "Conditional Richardson estimate; independent systematics not bounded",
+   "state": "OBSERVED_ORDER_CONSISTENT"
+  },
+  "late": {
+   "actual_h": [
+    0.2,
+    0.1,
+    0.05
+   ],
+   "d_coarse_medium_L2": 1.981352348139005e-06,
+   "d_medium_fine_L2": 1.2341555460062545e-07,
+   "expected_order": 4,
+   "fine_L2": 0.21543463604115087,
+   "fine_error_estimate_L2": 1.0247522393087078e-08,
+   "fine_relative_error_estimate": 4.7566735699498505e-08,
+   "is_error_bound": false,
+   "order_tolerance": 0.5,
+   "p_observed": 4.004889320388942,
+   "ratio": 2.0,
+   "reason": "Conditional Richardson estimate; independent systematics not bounded",
+   "state": "OBSERVED_ORDER_CONSISTENT"
+  },
+  "prompt": {
+   "actual_h": [
+    0.2,
+    0.1,
+    0.05
+   ],
+   "d_coarse_medium_L2": 5.614529429825812e-06,
+   "d_medium_fine_L2": 3.493164873387172e-07,
+   "expected_order": 4,
+   "fine_L2": 0.15182392894699587,
+   "fine_error_estimate_L2": 2.896891580158518e-08,
+   "fine_relative_error_estimate": 1.90805994829041e-07,
+   "is_error_bound": false,
+   "order_tolerance": 0.5,
+   "p_observed": 4.006558468182723,
+   "ratio": 2.0,
+   "reason": "Conditional Richardson estimate; independent systematics not bounded",
+   "state": "OBSERVED_ORDER_CONSISTENT"
+  },
+  "ringdown": {
+   "actual_h": [
+    0.2,
+    0.1,
+    0.05
+   ],
+   "d_coarse_medium_L2": 5.614431005886312e-06,
+   "d_medium_fine_L2": 3.492955603908951e-07,
+   "expected_order": 4,
+   "fine_L2": 0.15182392894697344,
+   "fine_error_estimate_L2": 2.8965871289496656e-08,
+   "fine_relative_error_estimate": 1.9078594191573962e-07,
+   "is_error_bound": false,
+   "order_tolerance": 0.5,
+   "p_observed": 4.006619609157481,
+   "ratio": 2.0,
+   "reason": "Conditional Richardson estimate; independent systematics not bounded",
+   "state": "OBSERVED_ORDER_CONSISTENT"
+  }
+ },
+ "sequences": {
+  "BH": {
+   "failed_checks": {
+    "BH_coarse": [],
+    "BH_fine": [],
+    "BH_medium": []
+   },
+   "refinement": {
+    "extended_late": {
+     "actual_h": [
+      0.1999999999999886,
+      0.10000000000002274,
+      0.05000000000001137
+     ],
+     "d_coarse_medium_L2": 3.8044676852209754e-14,
+     "d_medium_fine_L2": 7.50047451654183e-14,
+     "expected_order": 4,
+     "fine_L2": 7.032113722014704e-07,
+     "fine_error_estimate_L2": null,
+     "fine_relative_error_estimate": null,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": null,
+     "ratio": 1.9999999999994313,
+     "reason": "No decreasing nonzero refinement differences",
+     "state": "ORDER_NOT_CONFIRMED"
+    },
+    "full": {
+     "actual_h": [
+      0.1999999999999886,
+      0.10000000000002274,
+      0.05000000000001137
+     ],
+     "d_coarse_medium_L2": 3.627797749849658e-06,
+     "d_medium_fine_L2": 2.2682945829139854e-07,
+     "expected_order": 4,
+     "fine_L2": 2.357652659666543,
+     "fine_error_estimate_L2": 1.891064497590301e-08,
+     "fine_relative_error_estimate": 8.020963095801252e-09,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 3.9994141076472216,
+     "ratio": 1.9999999999994313,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "late": {
+     "actual_h": [
+      0.1999999999999886,
+      0.10000000000002274,
+      0.05000000000001137
+     ],
+     "d_coarse_medium_L2": 2.826339407166859e-07,
+     "d_medium_fine_L2": 1.7670602949305524e-08,
+     "expected_order": 4,
+     "fine_L2": 0.03122392467201275,
+     "fine_error_estimate_L2": 1.473082140453236e-09,
+     "fine_relative_error_estimate": 4.717799430811522e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 3.9995115523651097,
+     "ratio": 1.9999999999994313,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "prompt": {
+     "actual_h": [
+      0.1999999999999886,
+      0.10000000000002274,
+      0.05000000000001137
+     ],
+     "d_coarse_medium_L2": 3.616543064254987e-06,
+     "d_medium_fine_L2": 2.2612582922500846e-07,
+     "expected_order": 4,
+     "fine_L2": 2.3574412101054047,
+     "fine_error_estimate_L2": 1.8851990440287788e-08,
+     "fine_relative_error_estimate": 7.996801939101119e-09,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 3.999413632294473,
+     "ratio": 1.9999999999994313,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "ringdown": {
+     "actual_h": [
+      0.1999999999999886,
+      0.10000000000002274,
+      0.05000000000001137
+     ],
+     "d_coarse_medium_L2": 3.416355122606889e-06,
+     "d_medium_fine_L2": 2.1362173475021525e-07,
+     "expected_order": 4,
+     "fine_L2": 1.4703778798441718,
+     "fine_error_estimate_L2": 1.7810663592353597e-08,
+     "fine_relative_error_estimate": 1.2112983904682476e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 3.999327602425599,
+     "ratio": 1.9999999999994313,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    }
+   }
+  },
+  "WH": {
+   "failed_checks": {
+    "WH_coarse": [],
+    "WH_fine": [],
+    "WH_medium": []
+   },
+   "refinement": {
+    "extended_late": {
+     "actual_h": [
+      0.2,
+      0.1,
+      0.05
+     ],
+     "d_coarse_medium_L2": 1.180716051244322e-06,
+     "d_medium_fine_L2": 7.404867967828486e-08,
+     "expected_order": 4,
+     "fine_L2": 0.09510107961515676,
+     "fine_error_estimate_L2": 6.193377412873831e-09,
+     "fine_relative_error_estimate": 6.512415461461028e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 3.9950442326715274,
+     "ratio": 2.0,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "full": {
+     "actual_h": [
+      0.2,
+      0.1,
+      0.05
+     ],
+     "d_coarse_medium_L2": 6.970194368427133e-06,
+     "d_medium_fine_L2": 4.3412351322010226e-07,
+     "expected_order": 4,
+     "fine_L2": 2.3798096896733134,
+     "fine_error_estimate_L2": 3.6042912650729434e-08,
+     "fine_relative_error_estimate": 1.5145291998402276e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 4.005021417341636,
+     "ratio": 2.0,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "late": {
+     "actual_h": [
+      0.2,
+      0.1,
+      0.05
+     ],
+     "d_coarse_medium_L2": 2.030896059089872e-06,
+     "d_medium_fine_L2": 1.26094774609016e-07,
+     "expected_order": 4,
+     "fine_L2": 0.21744824109405805,
+     "fine_error_estimate_L2": 1.0434088527528463e-08,
+     "fine_relative_error_estimate": 4.7984239720822386e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 4.009536008174189,
+     "ratio": 2.0,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "prompt": {
+     "actual_h": [
+      0.2,
+      0.1,
+      0.05
+     ],
+     "d_coarse_medium_L2": 6.6612310820854205e-06,
+     "d_medium_fine_L2": 4.150181227238605e-07,
+     "expected_order": 4,
+     "fine_L2": 2.36984195379935,
+     "fine_error_estimate_L2": 3.446889405425478e-08,
+     "fine_relative_error_estimate": 1.4544807091035741e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 4.004542589177963,
+     "ratio": 2.0,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    },
+    "ringdown": {
+     "actual_h": [
+      0.2,
+      0.1,
+      0.05
+     ],
+     "d_coarse_medium_L2": 6.551850986770808e-06,
+     "d_medium_fine_L2": 4.080159551231579e-07,
+     "expected_order": 4,
+     "fine_L2": 1.4901787873089967,
+     "fine_error_estimate_L2": 3.3870745791822044e-08,
+     "fine_relative_error_estimate": 2.272931683116139e-08,
+     "is_error_bound": false,
+     "order_tolerance": 0.5,
+     "p_observed": 4.005205071354633,
+     "ratio": 2.0,
+     "reason": "Conditional Richardson estimate; independent systematics not bounded",
+     "state": "OBSERVED_ORDER_CONSISTENT"
+    }
+   }
+  }
+ }
+}

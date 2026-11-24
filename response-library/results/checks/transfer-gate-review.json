@@ -1,0 +1,398 @@
+{
+ "correction": {
+  "defect": "the all-window block of the entries below had been read from a transfer summary of another experiment (WH 2.005: transfer-wh-6882ed09131ed802, robustness-o120, observer r* 120) instead of the E0 summary the catalogue references (transfer-wh-db07391e5fcfa9bb)",
+  "found_by": "scripts/studies/transfer_gate_review.py (recomputation from the catalogue's E0 gates)",
+  "late_full_gate_block_affected": false,
+  "previous_values": {
+   "wh-r0_over_M-2.005-E0": {
+    "windows": {
+     "full": {
+      "fd_td_relative": 5.091206344582352e-08,
+      "ratio": 0.20357545997926732,
+      "residual_budget_relative": 2.5008939412937365e-07
+     },
+     "late": {
+      "fd_td_relative": 3.176590309249019e-08,
+      "ratio": 0.4934351050634643,
+      "residual_budget_relative": 6.437706350139913e-08
+     },
+     "prompt": {
+      "fd_td_relative": 7.620521420859857e-08,
+      "ratio": 0.18003234144962252,
+      "residual_budget_relative": 4.2328624732086076e-07
+     },
+     "ringdown": {
+      "fd_td_relative": 7.61567186218626e-08,
+      "ratio": 0.1857461150124581,
+      "residual_budget_relative": 4.100043686876289e-07
+     }
+    }
+   }
+  }
+ },
+ "gs_ratio_range": [
+  0.8058847840536009,
+  0.8683383646152961
+ ],
+ "max_ratio_to_residual_budget_all_windows": 0.8683383646152961,
+ "original_rule": "FD-TD <= 10 x (TD residual budget + FD variant spread + BH monitor discrepancy) in late and full windows (eco_library.transfer.AGREEMENT_FACTOR)",
+ "points": {
+  "gs-compactness-0.4-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 0.000572339196258143,
+     "bh_monitor_discrepancy_relative": 1.0891258101852021e-09,
+     "fd_td_relative": 4.841596186382483e-05,
+     "fd_variant_spread_relative": 2.324548517426774e-08,
+     "ratio_to_combined_budget": 0.8459312620970258,
+     "state": "AGREES",
+     "td_budget_relative": 5.7209585014829854e-05
+    },
+    "late": {
+     "allowance_relative": 0.0004836272670950517,
+     "bh_monitor_discrepancy_relative": 3.529771917217596e-10,
+     "fd_td_relative": 3.960995133131939e-05,
+     "fd_variant_spread_relative": 8.81657489446549e-09,
+     "ratio_to_combined_budget": 0.8190181577072762,
+     "state": "AGREES",
+     "td_budget_relative": 4.835355715741897e-05
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 4.841596186382483e-05,
+     "ratio": 0.8462910865596116,
+     "residual_budget_relative": 5.7209585014829854e-05
+    },
+    "late": {
+     "fd_td_relative": 3.960995133131939e-05,
+     "ratio": 0.8191734726437178,
+     "residual_budget_relative": 4.835355715741897e-05
+    },
+    "prompt": {
+     "fd_td_relative": 4.8690473813850896e-05,
+     "ratio": 0.8468469045029089,
+     "residual_budget_relative": 5.749619388693609e-05
+    },
+    "ringdown": {
+     "fd_td_relative": 4.8628088744707955e-05,
+     "ratio": 0.8472428319600193,
+     "residual_budget_relative": 5.7395692132574664e-05
+    }
+   }
+  },
+  "gs-compactness-0.44-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 0.0006881161217154629,
+     "bh_monitor_discrepancy_relative": 2.6708734313324594e-09,
+     "fd_td_relative": 5.711713684199628e-05,
+     "fd_variant_spread_relative": 1.9418216397743787e-08,
+     "ratio_to_combined_budget": 0.8300508451917118,
+     "state": "AGREES",
+     "td_budget_relative": 6.878952308171722e-05
+    },
+    "late": {
+     "allowance_relative": 0.000776660147078984,
+     "bh_monitor_discrepancy_relative": 4.146414181109428e-10,
+     "fd_td_relative": 6.338123949343681e-05,
+     "fd_variant_spread_relative": 8.344806076691121e-09,
+     "ratio_to_combined_budget": 0.8160743116769082,
+     "state": "AGREES",
+     "td_budget_relative": 7.765725526040359e-05
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 5.711713684199628e-05,
+     "ratio": 0.8303173838572053,
+     "residual_budget_relative": 6.878952308171722e-05
+    },
+    "late": {
+     "fd_td_relative": 6.338123949343681e-05,
+     "ratio": 0.816166361802309,
+     "residual_budget_relative": 7.765725526040359e-05
+    },
+    "prompt": {
+     "fd_td_relative": 5.599872552701692e-05,
+     "ratio": 0.8331778074987516,
+     "residual_budget_relative": 6.721101429132919e-05
+    },
+    "ringdown": {
+     "fd_td_relative": 5.599668317404521e-05,
+     "ratio": 0.8332230481874418,
+     "residual_budget_relative": 6.720491385332899e-05
+    }
+   }
+  },
+  "gs-compactness-0.47-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 0.0008177498448332172,
+     "bh_monitor_discrepancy_relative": 7.062968641792505e-10,
+     "fd_td_relative": 6.674763759283208e-05,
+     "fd_variant_spread_relative": 1.4416358877855017e-08,
+     "ratio_to_combined_budget": 0.8162354051738828,
+     "state": "AGREES",
+     "td_budget_relative": 8.175986182757968e-05
+    },
+    "late": {
+     "allowance_relative": 0.0009943394409123254,
+     "bh_monitor_discrepancy_relative": 5.938541943919639e-11,
+     "fd_td_relative": 8.06327968608243e-05,
+     "fd_variant_spread_relative": 6.5228837453065525e-09,
+     "ratio_to_combined_budget": 0.810918219102746,
+     "state": "AGREES",
+     "td_budget_relative": 9.94273618220678e-05
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 6.674763759283208e-05,
+     "ratio": 0.8163863795855438,
+     "residual_budget_relative": 8.175986182757968e-05
+    },
+    "late": {
+     "fd_td_relative": 8.06327968608243e-05,
+     "ratio": 0.8109719033390659,
+     "residual_budget_relative": 9.94273618220678e-05
+    },
+    "prompt": {
+     "fd_td_relative": 5.135084104886489e-05,
+     "ratio": 0.8283117647203577,
+     "residual_budget_relative": 6.19945813110613e-05
+    },
+    "ringdown": {
+     "fd_td_relative": 5.1350812082630974e-05,
+     "ratio": 0.8283318049159131,
+     "residual_budget_relative": 6.1993046479537e-05
+    }
+   }
+  },
+  "gs-compactness-0.49-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 0.0012301795247792006,
+     "bh_monitor_discrepancy_relative": 1.4499144021038664e-11,
+     "fd_td_relative": 9.936583352099213e-05,
+     "fd_variant_spread_relative": 1.4690701652287534e-08,
+     "ratio_to_combined_budget": 0.8077344120877548,
+     "state": "AGREES",
+     "td_budget_relative": 0.00012300324727712377
+    },
+    "late": {
+     "allowance_relative": 0.0015496123234313452,
+     "bh_monitor_discrepancy_relative": 1.0703873683433423e-12,
+     "fd_td_relative": 0.0001248768467417678,
+     "fd_variant_spread_relative": 5.0275910779225585e-09,
+     "ratio_to_combined_budget": 0.80585863221099,
+     "state": "AGREES",
+     "td_budget_relative": 0.00015495620368166923
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 9.936583352099213e-05,
+     "ratio": 0.8078309778043743,
+     "residual_budget_relative": 0.00012300324727712377
+    },
+    "late": {
+     "fd_td_relative": 0.0001248768467417678,
+     "ratio": 0.8058847840536009,
+     "residual_budget_relative": 0.00015495620368166923
+    },
+    "prompt": {
+     "fd_td_relative": 2.7608366401434496e-05,
+     "ratio": 0.8682928752549938,
+     "residual_budget_relative": 3.179614527336376e-05
+    },
+    "ringdown": {
+     "fd_td_relative": 2.7608365870321894e-05,
+     "ratio": 0.8683383646152961,
+     "residual_budget_relative": 3.179447896737046e-05
+    }
+   }
+  },
+  "wh-r0_over_M-2.0005-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 2.0618885582259586e-06,
+     "bh_monitor_discrepancy_relative": 3.4301123267813376e-13,
+     "fd_td_relative": 4.50348267867279e-08,
+     "fd_variant_spread_relative": 1.1107052124953409e-08,
+     "ratio_to_combined_budget": 0.21841542602804728,
+     "state": "AGREES",
+     "td_budget_relative": 1.950814606864098e-07
+    },
+    "late": {
+     "allowance_relative": 1.0451840663503012e-06,
+     "bh_monitor_discrepancy_relative": 3.0692870772417055e-13,
+     "fd_td_relative": 4.1477723248310233e-08,
+     "fd_variant_spread_relative": 8.661305484599295e-09,
+     "ratio_to_combined_budget": 0.39684611145237897,
+     "state": "AGREES",
+     "td_budget_relative": 9.58567942217231e-08
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 4.50348267867279e-08,
+     "ratio": 0.23085139217365525,
+     "residual_budget_relative": 1.950814606864098e-07
+    },
+    "late": {
+     "fd_td_relative": 4.1477723248310233e-08,
+     "ratio": 0.43270509498126464,
+     "residual_budget_relative": 9.58567942217231e-08
+    },
+    "prompt": {
+     "fd_td_relative": 7.38708680162988e-08,
+     "ratio": 0.12935866591425976,
+     "residual_budget_relative": 5.710546525368557e-07
+    },
+    "ringdown": {
+     "fd_td_relative": 7.37872259735832e-08,
+     "ratio": 0.13383427932488437,
+     "residual_budget_relative": 5.51332785186251e-07
+    }
+   }
+  },
+  "wh-r0_over_M-2.005-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 2.2062031781722586e-06,
+     "bh_monitor_discrepancy_relative": 3.949965255223694e-13,
+     "fd_td_relative": 4.295507211814221e-08,
+     "fd_variant_spread_relative": 1.2126777647358396e-08,
+     "ratio_to_combined_budget": 0.19470134275542375,
+     "state": "AGREES",
+     "td_budget_relative": 2.0849314517334191e-07
+    },
+    "late": {
+     "allowance_relative": 6.094570625532429e-07,
+     "bh_monitor_discrepancy_relative": 4.14186639798278e-13,
+     "fd_td_relative": 3.439225026310907e-08,
+     "fd_variant_spread_relative": 5.674839508374363e-09,
+     "ratio_to_combined_budget": 0.5643096515942748,
+     "state": "AGREES",
+     "td_budget_relative": 5.527045256031013e-08
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 4.295507211814221e-08,
+     "ratio": 0.2060263040419349,
+     "residual_budget_relative": 2.0849314517334191e-07
+    },
+    "late": {
+     "fd_td_relative": 3.439225026310907e-08,
+     "ratio": 0.6222538204401504,
+     "residual_budget_relative": 5.527045256031013e-08
+    },
+    "prompt": {
+     "fd_td_relative": 5.63863723959186e-08,
+     "ratio": 0.1605524830341186,
+     "residual_budget_relative": 3.512021198945648e-07
+    },
+    "ringdown": {
+     "fd_td_relative": 5.632089496445755e-08,
+     "ratio": 0.16545329322228816,
+     "residual_budget_relative": 3.404035898444757e-07
+    }
+   }
+  },
+  "wh-r0_over_M-2.02-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 1.849618650245513e-06,
+     "bh_monitor_discrepancy_relative": 3.100727485767059e-13,
+     "fd_td_relative": 4.0117103975190274e-08,
+     "fd_variant_spread_relative": 1.029482056707089e-08,
+     "ratio_to_combined_budget": 0.2168939201054512,
+     "state": "AGREES",
+     "td_budget_relative": 1.7466673438473181e-07
+    },
+    "late": {
+     "allowance_relative": 7.142805657316953e-07,
+     "bh_monitor_discrepancy_relative": 3.183116244562039e-13,
+     "fd_td_relative": 3.848332652145605e-08,
+     "fd_variant_spread_relative": 5.412658824863617e-09,
+     "ratio_to_combined_budget": 0.5387704547446908,
+     "state": "AGREES",
+     "td_budget_relative": 6.601507943668145e-08
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 4.0117103975190274e-08,
+     "ratio": 0.22967798714794682,
+     "residual_budget_relative": 1.7466673438473181e-07
+    },
+    "late": {
+     "fd_td_relative": 3.848332652145605e-08,
+     "ratio": 0.5829475151714002,
+     "residual_budget_relative": 6.601507943668145e-08
+    },
+    "prompt": {
+     "fd_td_relative": 4.372098931757158e-08,
+     "ratio": 0.14730685645413782,
+     "residual_budget_relative": 2.9680213379058547e-07
+    },
+    "ringdown": {
+     "fd_td_relative": 4.370298771354406e-08,
+     "ratio": 0.15167014369612164,
+     "residual_budget_relative": 2.881449614836858e-07
+    }
+   }
+  },
+  "wh-r0_over_M-2.05-E0": {
+   "gate_late_full": {
+    "full": {
+     "allowance_relative": 2.067429382113083e-06,
+     "bh_monitor_discrepancy_relative": 3.4888671268001565e-13,
+     "fd_td_relative": 5.6248469738374796e-08,
+     "fd_variant_spread_relative": 1.1496713527848503e-08,
+     "ratio_to_combined_budget": 0.2720696059803708,
+     "state": "AGREES",
+     "td_budget_relative": 1.9524587579674717e-07
+    },
+    "late": {
+     "allowance_relative": 9.21031673276173e-07,
+     "bh_monitor_discrepancy_relative": 3.6711040919051143e-13,
+     "fd_td_relative": 6.327587687309359e-08,
+     "fd_variant_spread_relative": 5.086227112062827e-09,
+     "ratio_to_combined_budget": 0.687010867368078,
+     "state": "AGREES",
+     "td_budget_relative": 8.701657310514529e-08
+    }
+   },
+   "windows": {
+    "full": {
+     "fd_td_relative": 5.6248469738374796e-08,
+     "ratio": 0.28809043729522865,
+     "residual_budget_relative": 1.9524587579674717e-07
+    },
+    "late": {
+     "fd_td_relative": 6.327587687309359e-08,
+     "ratio": 0.7271704069135778,
+     "residual_budget_relative": 8.701657310514529e-08
+    },
+    "prompt": {
+     "fd_td_relative": 3.884876088905914e-08,
+     "ratio": 0.12679216774481683,
+     "residual_budget_relative": 3.0639716616602484e-07
+    },
+    "ringdown": {
+     "fd_td_relative": 3.8786403458780434e-08,
+     "ratio": 0.1305164732773217,
+     "residual_budget_relative": 2.97176306444988e-07
+    }
+   }
+  }
+ },
+ "review": "GS/WH transfer (FD) versus direct TD gate across all claimed points and the four windows",
+ "wh_ratio_range": [
+  0.12679216774481683,
+  0.7271704069135778
+ ]
+}
