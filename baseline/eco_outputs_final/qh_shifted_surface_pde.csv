@@ -1,0 +1,2 @@
+surface,detector,R,dx,raw_relative_L2,zero_wall_max_abs,normalization
+-50.0,95.0,0.08,0.05,0.0013676190593515786,0.0,190<=t/M<=500; direct correction L2; no alignment

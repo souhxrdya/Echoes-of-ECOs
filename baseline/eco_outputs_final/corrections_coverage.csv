@@ -1,0 +1,14 @@
+item,requirement,evidence,observed,passed
+1.1–1.2,Local surface basis; one-way detector path distinct from round trip,section 8; qh_coordinate_tests.csv,"(135.0, 80.0)",True
+1.3.1,Zero reflector yields zero correction,qh_shifted_surface_pde.csv,0.0,True
+1.3.2,First-return amplitude linear in reflectivity,qh_coordinate_tests.csv,"(0.04, 0.08)",True
+1.3.3,Move wall; fixed source/detector; compare arrival and return spacing,qh_coordinate_tests.csv; qh_shifted_surface_pde.csv,0.0013676190593515786,True
+1.3.4,"Independent local-boundary PDE vs transfer, no fitted shift or normalization",qh_independent_td_checks.csv; HDF5,0.0014135277397919804,True
+1.3.5,Fourier convention preserves causal delay and reflection phase,qh_transfer_chain_test.csv,"(1.4675385851905117e-15, 0.011832356430952096)",True
+1.3.6,"Recompute waveform, delay, hierarchy, residuals, flux energy and both mismatches",HDF5 readback; quantum_hierarchy_diagnostics.csv; energy_by_window.csv,4,True
+2,"Independent input guesses, residuals, complex clustering, damping order, independent TD and one-at-a-time numerical stability",gravastar_qnm_multistart.csv; gravastar_qnm_root_clusters.csv; gravastar_root_stability.csv,"(10, 1, 6)",True
+3.1,"Separate total, residual and isolated QH peaks; explicit common BH prompt and windows",waveform_parameter_map.csv; waveform_parameter_maps.png,peak |BH at same observer| in 100<=t95<190; late 190<=t95<=500,True
+3.2,"Measure gravastar packets, cavity, light ring, QNM, boundary/grid checks; record failed or untested criteria",waveform_parameter_map.csv; standard_echo_validity_report.csv,"(0.4, 0.47, 0.495)",True
+3.3,"Low/mid/high at three grids and two observers; recurrence, peak, amplitude and both waveform shapes",scan_measurements.csv; scan_resolution_and_extraction.csv,"(39, 42)",True
+4.1,"Absolute early/late RMS and late RMS / BH prompt peak, including tiny early residuals",early_late_residual_metrics.csv; HDF5 readback,0.0002382712832817972,True
+4.2,Fitted complex QNMs; masked Hilbert values only; threshold sensitivity with labelled mask,gravastar_qnm_root_clusters.csv; hilbert_mask_counts.csv; hilbert_threshold_comparison.png,"[0.0001, 0.001, 0.01]",True

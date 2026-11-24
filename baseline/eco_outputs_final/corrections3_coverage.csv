@@ -1,0 +1,13 @@
+requirement,test,evidence
+Ingoing rather than total source,Independent replay using saved field and derivative,reconstruction_records.npz; verify_freeze_release.py
+Record spatial derivative at monitor,Centered D1 with native extraction; independent source-only BH control,reconstruction_records.npz
+"Explicit transform sign, DC and recovery",Pure ingoing/outgoing/mixed signals; DC and wrong-sign controls,characteristic_controls.csv
+Measure outgoing contamination in band,Frequency-dependent split and outgoing/ingoing ratio,characteristic_convergence.csv
+Raw unshifted unscaled direct comparison,GS and WH ECO minus source-matched BH; even/odd and both observers,transfer_reconstruction_comparison.csv; wh_transfer_parity.csv
+Vary monitor,"One-factor variation for both models: -75.0, -65.0, -55.0",characteristic_convergence.csv
+Vary dx,"One-factor variation for both models: 0.05, 0.1, 0.2",characteristic_convergence.csv
+Vary cutoff,"One-factor variation for both models: 1.5, 2.0, 2.4",characteristic_convergence.csv
+Vary eta,"One-factor variation for both models: 0.006, 0.008, 0.01",characteristic_convergence.csv
+Vary padding,"One-factor variation for both models: 32768.0, 65536.0",characteristic_convergence.csv
+Vary input_duration,"One-factor variation for both models: 650.0, 700.0",characteristic_convergence.csv
+Vary source_left,"One-factor variation for both models: -480.0, -400.0",characteristic_convergence.csv

@@ -1,0 +1,11 @@
+quantity,value,role
+naive geometric round trip,67.90805699432975,geometry only
+barrier phase contribution,39.50559741854022,packet-weighted d arg R_half/domega
+effective throat contribution,17.06384097545032,delta throat plus opposite exterior
+full loop group delay,56.569438393990566,sum of phase derivatives across packet
+matched-packet recurrence,30.904999999999973,mixed return-family peak estimator
+autocorrelation recurrence,35.14,finite-window estimator
+envelope recurrence,96.39000000000001,"envelope-only diagnostic, not classifier"
+even-family QNM spacing time,39.21959718486909,same-parity resonance family
+odd-family QNM spacing time,39.06438709802173,same-parity resonance family
+packet-bandwidth delay sigma,24.782917897453608,frequency spread

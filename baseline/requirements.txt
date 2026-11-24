@@ -1,0 +1,8 @@
+# Versions of the validated run (CPython 3.11.9)
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.3
+pandas==2.2.3
+h5py==3.13.0
+sympy==1.13.3
+mpmath==1.3.0

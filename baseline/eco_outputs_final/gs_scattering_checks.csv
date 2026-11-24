@@ -1,0 +1,11 @@
+test,max_error,tolerance,passed
+independent 2x2 shell junction R,8.448398317165106e-11,5e-08,True
+continuity of field,8.448406643084742e-11,5e-08,True
+continuity of tortoise derivative,3.9188016503160875e-11,5e-08,True
+lossless regular interior,2.220446049250313e-16,1e-11,True
+unit-shell-incident IVP vs finite detector,1.8781309486947309e-07,8e-07,True
+exterior Wronskian/flux,3.0254656779860056e-08,2e-07,True
+ratio of successive returns,5.551115123125783e-17,1e-12,True
+series vs direct matching,3.510833468576701e-16,1e-10,True
+linear weak first-return amplitude,1.1102230246251565e-16,1e-12,True
+"weak total vs first, O(eps) relative",0.0009994209347424208,0.00101,True

@@ -1,0 +1,81 @@
+Category,Test,Requirement,Result,Pass,Required
+Background-model,Boson published axial mode benchmark,both Table IV values within our 5% gate; paper estimates few-percent tail uncertainty,0.001032564665309598,True,True
+Background-model,Boson complex mode numerical convergence,fixed-tail problem relative change <2e-7,5.9307557379862275e-09,True,True
+Quantum,Quantum complex pole real-axis prescription,analytic continuation agrees with actual global coefficient,1.9860273225978185e-15,True,True
+Quantum,Quantum complex pole convergence,interface/contour/order/tolerance change <2e-6,2.5781712514785895e-09,True,True
+Background-model,Gravastar published analytic interior and metric junctions,45/45 high-precision reference comparisons,1.4322845202693015e-14,True,True
+Echo physics,Wormhole published complex frequencies,3 independent Table 6 values within 1%,0.00015044356310383428,True,True
+Echo physics,Wormhole complex-pole convergence,contour/distance/order/tolerance change <2e-6,2.049774899778467e-12,True,True
+Numerical,Controlled comparison geometry,same areal radii within1e-9 M,1.4210854715202004e-14,True,True
+Quantum,Quantum fixed-physics interface invariance,unfitted waveform change <1e-4,5.637705610962664e-08,True,True
+Quantum,Quantum global/local coefficient identity,relative algebraic residual <1e-12,4.545097366301954e-17,True,True
+Quantum,Quantum overlap-region kernel control,negative-lag norm <0.1% and independent PDE error <1%,0.006385411738113904,True,True
+Quantum,Quantum moved-surface independent PDE,"raw late error < 1% at second surface, fixed source and detector",0.0013676190593515786,True,True
+Quantum,Quantum zero wall end to end,both PDE and spectrum correction exactly zero,0.0,True,True
+Echo physics,Echo published timing agreement,all central and final timing columns agree,1.0,True,True
+Echo physics,Echo classifier controls,"positive, negative and missing-evidence controls",1.0,True,True
+Numerical,BH QNM n=0 literature,relative error < 1e-6,1.6070352520346816e-08,True,True
+Numerical,BH QNM n=1 literature,relative error < 1e-6,1.2784848698596445e-08,True,True
+Numerical,BH QNM n=2 literature,relative error < 1e-6,9.95668368647915e-09,True,True
+Numerical,BH free TD fundamental,relative complex error < 8%,0.009575286449519875,True,True
+Numerical,Initial ingoing fraction,> 0.999,1.0,True,True
+Numerical,All primary evolutions stable,no exponential growth,1.0,True,True
+Numerical,Boundary contamination,max relative L2 < 1e-3,3.1023588148356627e-10,True,True
+Numerical,Production boundary causal margin,earliest right-boundary return after t_max,129.97000000000003,True,True
+Numerical,Extraction-radius raw agreement,retarded raw L2 < 5e-2,0.02772951733558322,True,True
+Numerical,Extraction-radius shape agreement,amplitude-fitted retarded L2 < 3e-2,0.026827865482207485,True,True
+Numerical,Extraction-radius late agreement,late retarded shape L2 < 10%,0.08265878739117628,True,True
+Numerical,Spatial order coarse,3.5 < p < 4.5,4.004581381052744,True,True
+Numerical,Spatial order fine,3.5 < p < 4.5,3.9994376770889777,True,True
+Numerical,Temporal RK4 order,3.4 < p < 4.6,4.00020377137671,True,True
+Quantum,BH barrier flux,max |R^2+T^2-1| < 2e-6,1.2004438088020208e-07,True,True
+Background-model,Gravastar FD convergence,rmax/order spread < 1e-6,6.352766158613869e-10,True,True
+Background-model,Gravastar multistart attempts,5--10 independent complex guesses,10.0,True,True
+Background-model,Gravastar fundamental basin support,at least 2 independent guesses reach the physical fundamental,6.0,True,True
+Background-model,Gravastar multistart fundamental,clustered root agrees with converged FD mode < 1e-6,1.5119261368127371e-12,True,True
+Background-model,Gravastar TD/FD,relative complex error < 8%,0.008998464529134801,True,True
+Background-model,Gravastar shell metric,continuity residual < 1e-12,1.1102230246251565e-16,True,True
+Background-model,Gravastar shell alignment,coordinate residual < 1e-12,0.0,True,True
+Background-model,Gravastar grid refinement,coarse/fine waveform L2 < 10%,0.0005596194273698364,True,True
+Background-model,Boson BVP residual,< 1e-4,1.8607612346730601e-07,True,True
+Background-model,Boson literature background,max relative error < 1e-3,1.1542614495240874e-05,True,True
+Background-model,Boson photon sphere,absent for mini-BS I,0.0,True,True
+Background-model,Boson photon metadata scope,recomputed for evolved background,1.0,True,True
+Echo physics,Wormhole symmetry,max residual < 1e-8,5.551115123125783e-17,True,True
+Echo physics,Wormhole throat scattering flux,max residual < 1e-12,6.661338147750939e-16,True,True
+Echo physics,Wormhole throat analytic jump,max residual < 1e-12,1.1443916996305594e-16,True,True
+Echo physics,Wormhole numerical throat jump,final residual < 1e-10,1.734723475976807e-16,True,True
+Echo physics,Wormhole finite-band delay,<10% required only for CLEAN_ECHO; disagreement must downgrade label,0.45368027547392015,True,True
+Echo physics,Wormhole QNM spacing,<10% required only for CLEAN_ECHO; split families remain recurrence,0.21200108572448279,True,True
+Echo physics,Wormhole pulse resolution,"<5% required only for CLEAN_ECHO; dx=.20,.10,.05 retained",0.0,True,True
+Echo physics,Wormhole extraction spacing,"x=75,95,120 spacing spread < 5%",0.0,True,True
+Echo physics,Wormhole timing interpretation,full timing audit and echo label agree,1.0,True,True
+Echo physics,Unified ECO reflection definitions,GS/WH/QH physical; BS explicitly undefined,1.0,True,True
+Echo physics,Unified central metrics,all defined responses have finite amplitude/phase/delay,1.0,True,True
+Numerical,GS raw transfer reconstruction,unshifted/unscaled late L2 < 1%,0.00032250055710485073,True,True
+Numerical,WH raw transfer reconstruction,unshifted/unscaled late L2 < 1%,6.43457157307424e-07,True,True
+Numerical,Measured characteristic analytic controls,pure ingoing/outgoing/mixed/DC/negative controls,1.0,True,True
+Numerical,Measured characteristic one-factor convergence,"36 trials; raw error <1%, prediction change <0.1%",9.734208172827028e-06,True,True
+Numerical,"GS junction, unit-incident, flux and return controls",all component tolerances,1.0,True,True
+Numerical,GS moved-shell first returns,absolute arrival < 0.05 M; delay change < 0.05 M,0.006084355731644564,True,True
+Numerical,WH left domain and both observers,move -400 to -480 M; raw change < 1e-7,0.0,True,True
+Numerical,"WH component, symmetry and two-sided matching",all component tolerances,1.0,True,True
+Numerical,WH raw even and odd plus both observers,late window raw L2 < 1%,7.96634291131325e-07,True,True
+Numerical,Geometric inversion convergence,padding-only change < 0.1%,3.4981283035793196e-10,True,True
+Quantum,Quantum reflectivity identity,max residual < 1e-10,3.3306690738754696e-16,True,True
+Quantum,Quantum phase decomposition,derivative residual < 1e-6,1.5802470443304628e-11,True,True
+Quantum,Quantum analytic causality,relative L2 < 1e-10,1.4675385851905117e-15,True,True
+Quantum,Quantum arrival convention,arrival error <= dt,0.0,True,True
+Quantum,Quantum reflection phase sign,wrapped phase error < 1e-10,3.885780586188048e-16,True,True
+Quantum,Quantum full-chain amplitude,controlled relative error < 2%,0.003788891373376248,True,True
+Quantum,Quantum full-chain delay,controlled absolute error < 0.2M,0.030753853435061984,True,True
+Quantum,Quantum full-chain phase,controlled wrapped error < 0.03 rad,0.011832356430952096,True,True
+Quantum,Quantum omega_min convergence,late correction L2 < 5%,5.864805629542231e-10,True,True
+Quantum,Quantum low-frequency phase convergence,late weighted phase RMS < 0.05 rad,1.87436899982112e-10,True,True
+Quantum,Quantum phase interpolation,PCHIP vs linear late L2 < 5%,0.00014215589873048476,True,True
+Quantum,Quantum time reconstruction,FFT padding late L2 < 5%,1.1978141561417574e-06,True,True
+Quantum,Quantum physical location tests,"max pointwise error < 1e-10 (zero, linearity, shifted arrivals and round trips)",1.6778042171740337e-14,True,True
+Quantum,Quantum constant and dispersive TD boundary,both dx=.05 unfitted PDE errors < 5%,0.00141352773979198,True,True
+Quantum,Quantum independent PDE refinement,raw discrepancy decreases from dx=.10 to .05 for both wall laws,0.26791460700683123,True,True
+Quantum,Quantum unified transfer reconstruction,direct vs common-K late L2 < 5%,0.0014139418596492467,True,True
+Echo physics,Echo labels physically consistent,T_echo only for CLEAN_ECHO,1.0,True,True

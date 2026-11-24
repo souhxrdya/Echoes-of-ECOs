@@ -1,0 +1,2 @@
+expected_abs_K,measured_amplitude_ratio,relative_amplitude_error,expected_group_delay,measured_delay,absolute_delay_error,expected_output_phase,measured_output_phase,wrapped_phase_error,applied_numpy_transfer
+0.2665687446249909,0.2675787446419123,0.003788891373376248,18.26924614656495,18.30000000000001,0.030753853435061984,-0.402990101631824,-0.39115774520087193,0.011832356430952096,conj(K_physical)

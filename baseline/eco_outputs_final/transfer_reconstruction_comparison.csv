@@ -1,0 +1,4 @@
+model,raw_relative_L2,optimized_overlap,best_time_shift,best_amplitude_scale,best_phase_shift,aligned_complex_relative_L2,window_and_scale
+GS,0.00032250055710485073,0.9999999927139869,0.0,1.0000768079614386,-0.00028897910135679896,0.00012071464669503041,190<=t/M<=500; raw L2 / direct norm; no fitting; alignment columns diagnostic only
+WH,6.43457157307424e-07,0.9999999999998253,0.0,0.9999999791992219,2.567815762921527e-07,5.896286295504548e-07,190<=t/M<=500; raw L2 / direct norm; no fitting; alignment columns diagnostic only
+QH,0.0014139418596492467,0.999999812052208,0.0,1.0005091167171918,-0.0011683728759199377,0.0006131032116046224,190<=t/M<=500; raw L2 / direct norm; no fitting; alignment columns diagnostic only

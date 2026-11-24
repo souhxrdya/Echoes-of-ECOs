@@ -1,0 +1,5 @@
+family,variation,reference,t_min,t_max,earliest_causal_return,epsilon_boundary
+right,xR=250,xR=400,100.0,340.0,350.0,3.1023588148356627e-10
+right,xR=300,xR=400,100.0,340.0,350.0,0.0
+left,xL=-120,xL=-180,100.0,340.0,390.0,1.1758752648112779e-14
+left,xL=-140,xL=-180,100.0,340.0,430.0,8.313246210937854e-15

@@ -1,0 +1,7 @@
+xH,R,first_delay,first_delay_from_fixed_barrier_source,spacing,first_height,max_error,source_record
+-80.0,0.0,,,,0.0,0.0,unit Gaussian peak; free analytic check; delays measured from packet center t=28
+-80.0,0.04,175.0,255.0,160.0,0.032,1.491862189340054e-16,unit Gaussian peak; free analytic check; delays measured from packet center t=28
+-80.0,0.08,175.0,255.0,160.0,0.064,1.6778042171740337e-14,unit Gaussian peak; free analytic check; delays measured from packet center t=28
+-60.0,0.0,,,,0.0,0.0,unit Gaussian peak; free analytic check; delays measured from packet center t=28
+-60.0,0.04,155.0,215.0,120.0,0.032,1.6306400674181987e-16,unit Gaussian peak; free analytic check; delays measured from packet center t=28
+-60.0,0.08,155.0,215.0,120.0,0.064,3.2612801348363973e-16,unit Gaussian peak; free analytic check; delays measured from packet center t=28

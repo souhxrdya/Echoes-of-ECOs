@@ -1,0 +1,19 @@
+model,epsilon,window,normalization,n_window,n_valid,retained_fraction
+BH,0.0001,190<=t/M<=500,own global analytic-envelope peak,4428,4353,0.9830623306233063
+BH,0.001,190<=t/M<=500,own global analytic-envelope peak,4428,3563,0.8046522131887985
+BH,0.01,190<=t/M<=500,own global analytic-envelope peak,4428,595,0.13437217705510388
+GS,0.0001,190<=t/M<=500,own global analytic-envelope peak,4453,4453,1.0
+GS,0.001,190<=t/M<=500,own global analytic-envelope peak,4453,4428,0.9943858073209072
+GS,0.01,190<=t/M<=500,own global analytic-envelope peak,4453,2241,0.5032562317538738
+BS,0.0001,190<=t/M<=500,own global analytic-envelope peak,4428,4329,0.9776422764227642
+BS,0.001,190<=t/M<=500,own global analytic-envelope peak,4428,3470,0.7836495031616982
+BS,0.01,190<=t/M<=500,own global analytic-envelope peak,4428,244,0.05510388437217705
+WH,0.0001,190<=t/M<=500,own global analytic-envelope peak,4428,4428,1.0
+WH,0.001,190<=t/M<=500,own global analytic-envelope peak,4428,4428,1.0
+WH,0.01,190<=t/M<=500,own global analytic-envelope peak,4428,4134,0.9336043360433605
+QH,0.0001,190<=t/M<=500,own global analytic-envelope peak,4428,4353,0.9830623306233063
+QH,0.001,190<=t/M<=500,own global analytic-envelope peak,4428,3528,0.7967479674796748
+QH,0.01,190<=t/M<=500,own global analytic-envelope peak,4428,594,0.13414634146341464
+QH correction,0.0001,190<=t/M<=500,own global analytic-envelope peak,4428,3272,0.7389340560072267
+QH correction,0.001,190<=t/M<=500,own global analytic-envelope peak,4428,2831,0.6393405600722674
+QH correction,0.01,190<=t/M<=500,own global analytic-envelope peak,4428,1615,0.3647244805781391

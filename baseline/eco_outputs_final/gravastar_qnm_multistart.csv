@@ -1,0 +1,13 @@
+guess,converged,omega,residual,message
+(0.38-0.06j),False,,,"The iteration is not making good progress, as measured by the 
+ improvement from the last ten iterations."
+(0.4-0.02j),True,(0.40509571715246506-0.02498116295925851j),7.0658296880460585e-15,converged
+(0.4-0.04j),True,(0.40509571715246334-0.02498116295925879j),6.5211182581386654e-15,converged
+(0.42-0.04j),True,(0.40509571715246445-0.024981162959257276j),7.661612520419376e-15,converged
+(0.45-0.08j),False,,,"The iteration is not making good progress, as measured by the 
+ improvement from the last five Jacobian evaluations."
+(0.35-0.03j),True,(0.40509571715246256-0.024981162959259107j),1.4301721209111178e-14,converged
+(0.5-0.06j),False,,,non-decaying/out-of-band root rejected: (0.4338937905239588+7.628945944526163j)
+(0.3-0.012j),False,,,non-decaying/out-of-band root rejected: (-0.6672568998401769+5.2848049054090565j)
+(0.43-0.015j),True,(0.40509571715246656-0.02498116295925506j),4.1408129771531554e-15,converged
+(0.405-0.025j),True,(0.4050957171524647-0.02498116295925418j),2.319033100710261e-14,converged

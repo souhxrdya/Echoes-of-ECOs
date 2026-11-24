@@ -1,0 +1,4 @@
+check,value,tolerance,passed
+positive-real-axis analytic law vs literal published A*/A,1.9860273225978185e-15,2e-12,True
+real-axis Boltzmann amplitude,7.771561172376096e-16,2e-12,True
+analytic branch vs actual global waveform coefficient,1.9860273225978185e-15,2e-12,True

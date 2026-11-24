@@ -1,0 +1,45 @@
+test,eta,max_error,tolerance,passed
+pure ingoing independent ingoing spectrum,0.0035,8.045243427735524e-16,2e-11,True
+pure ingoing independent outgoing spectrum,0.0035,8.051979895666013e-16,2e-11,True
+pure ingoing sum recovers measured field,0.0035,5.319323838948209e-17,2e-14,True
+pure ingoing imaginary-axis DC,0.0035,2.3987932922195637e-17,2e-11,True
+pure outgoing independent ingoing spectrum,0.0035,1.250008532396827e-15,2e-11,True
+pure outgoing independent outgoing spectrum,0.0035,1.2498689487773056e-15,2e-11,True
+pure outgoing sum recovers measured field,0.0035,5.4467232874514876e-17,2e-14,True
+pure outgoing imaginary-axis DC,0.0035,6.007290469866345e-16,2e-11,True
+mixed independent ingoing spectrum,0.0035,9.580213046687284e-16,2e-11,True
+mixed independent outgoing spectrum,0.0035,9.408010359135783e-16,2e-11,True
+mixed sum recovers measured field,0.0035,5.175587730896027e-17,2e-14,True
+mixed imaginary-axis DC,0.0035,2.984480391253816e-16,2e-11,True
+negative control rejects wrong characteristic sign,0.0035,0.0,0.5,True
+negative control rejects total-as-incident,0.0035,0.0,0.5,True
+pure ingoing independent ingoing spectrum,0.005,8.00554412193105e-16,2e-11,True
+pure ingoing independent outgoing spectrum,0.005,8.021167327005182e-16,2e-11,True
+pure ingoing sum recovers measured field,0.005,2.874841215593249e-17,2e-14,True
+pure ingoing imaginary-axis DC,0.005,2.6673650835992207e-17,2e-11,True
+pure outgoing independent ingoing spectrum,0.005,1.1560539989647084e-15,2e-11,True
+pure outgoing independent outgoing spectrum,0.005,1.1559234649044001e-15,2e-11,True
+pure outgoing sum recovers measured field,0.005,3.433684008236237e-17,2e-14,True
+pure outgoing imaginary-axis DC,0.005,4.525881216402375e-16,2e-11,True
+mixed independent ingoing spectrum,0.005,9.345366751730585e-16,2e-11,True
+mixed independent outgoing spectrum,0.005,9.208990045472325e-16,2e-11,True
+mixed sum recovers measured field,0.005,4.930552641329516e-17,2e-14,True
+mixed imaginary-axis DC,0.005,2.5847199182857314e-16,2e-11,True
+negative control rejects wrong characteristic sign,0.005,0.0,0.5,True
+negative control rejects total-as-incident,0.005,0.0,0.5,True
+pure ingoing independent ingoing spectrum,0.008,8.053763312360336e-16,2e-11,True
+pure ingoing independent outgoing spectrum,0.008,8.055403006915e-16,2e-11,True
+pure ingoing sum recovers measured field,0.008,3.827613456688261e-17,2e-14,True
+pure ingoing imaginary-axis DC,0.008,2.681379325654669e-17,2e-11,True
+pure outgoing independent ingoing spectrum,0.008,1.065338219989943e-15,2e-11,True
+pure outgoing independent outgoing spectrum,0.008,1.0667021297379583e-15,2e-11,True
+pure outgoing sum recovers measured field,0.008,4.402529209904031e-17,2e-14,True
+pure outgoing imaginary-axis DC,0.008,2.9920761535596566e-16,2e-11,True
+mixed independent ingoing spectrum,0.008,8.910256454247547e-16,2e-11,True
+mixed independent outgoing spectrum,0.008,8.676757108949813e-16,2e-11,True
+mixed sum recovers measured field,0.008,4.1171415345081986e-17,2e-14,True
+mixed imaginary-axis DC,0.008,1.365823130477538e-16,2e-11,True
+negative control rejects wrong characteristic sign,0.008,0.0,0.5,True
+negative control rejects total-as-incident,0.008,0.0,0.5,True
+real static DC must not be silently split,0.0,0.0,0.5,True
+physical and NumPy real-frequency signs agree,0.0,0.0,1e-14,True

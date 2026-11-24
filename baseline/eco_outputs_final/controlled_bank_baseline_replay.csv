@@ -1,0 +1,10 @@
+check,label,error,tolerance,passed
+fresh_baseline_waveform,BH,1.1158358182739669e-08,1e-06,True
+fresh_baseline_waveform,GS,0.0,1e-06,True
+fresh_baseline_waveform,BS,0.0,1e-06,True
+fresh_baseline_waveform,WH,0.0,1e-06,True
+fresh_baseline_waveform,QH,1.1158351352226314e-08,1e-06,True
+fresh_baseline_matrix,prompt_intrinsic_Q,5.551115123125783e-16,5e-06,True
+fresh_baseline_matrix,prompt_strain_detector,2.220446049250313e-16,5e-06,True
+fresh_baseline_matrix,late_intrinsic_Q,8.873453083424465e-10,5e-06,True
+fresh_baseline_matrix,late_strain_detector,1.6645802514148045e-09,5e-06,True

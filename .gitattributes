@@ -1,0 +1,7 @@
+# Keep notebooks, data and results byte for byte on every platform.
+*.ipynb -text -diff
+*.h5 -text -diff
+*.npz -text -diff
+*.png -text -diff
+baseline/eco_outputs_final/** -text
+response-library/results/** -text

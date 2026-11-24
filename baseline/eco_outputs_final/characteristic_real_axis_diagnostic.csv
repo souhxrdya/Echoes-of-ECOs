@@ -1,0 +1,3 @@
+model,real_axis_nonzero_band_amplitude_ratio,real_axis_nonzero_band_flux_ratio,static_DC_field_real,static_DC_derivative_real,static_policy
+GS,6.408147315438917e-08,7.221198684287888e-15,0.00416646313898425,5.313536069473379e-12,not directionally split; excluded only from real-axis diagnostic; production retains z=i eta
+WH,6.404300923766349e-08,7.211176380248245e-15,0.011865894117956972,2.5040351736560496e-12,not directionally split; excluded only from real-axis diagnostic; production retains z=i eta
